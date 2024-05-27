@@ -15,6 +15,7 @@ export default function Home() {
   return (
     <>
 <HomeHero/>
+vhggffgh
 <Clinicinfo/>
       <Dentalservices></Dentalservices>
       <Team/>
