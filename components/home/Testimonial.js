@@ -50,7 +50,7 @@ const StyledDots = styled("ul")(({ theme }) => ({
         "& li": {
             marginRight: theme.spacing(2),
             "&.slick-active>div": {
-                backgroundColor: theme.palette.primary.main,
+                backgroundColor: theme.palette.primary.light,
             },
         },
     },

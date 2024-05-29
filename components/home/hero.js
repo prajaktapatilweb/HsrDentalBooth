@@ -24,7 +24,7 @@ const HomeHero = () => {
   return (
     <>
     
-     <Grid className='section section-lg section-shaped' sx={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+     {/* <Grid className='section section-lg section-shaped' sx={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
       <div className='shape shape-style-u1 shape-dark'>
         <span className='span-150' />
         <span className='span-75' />
@@ -32,9 +32,9 @@ const HomeHero = () => {
         <span className='span-75' />
         <span className='span-200' />
         <span className='span-150' />
-      </div>
+      </div> */}
       {/* <Box sx={{background:'#104099',height:'auto'}} alignItems='center' justifyContent='center' textAlign='center'> */}
-        <Container>
+        {/* <Container>
           <Grid container alignItems='center' justifyContent='center' textAlign='left' sx={{ zIndex: 1 ,position:'relative'}}>
             <Grid item xs={12} md={6} sx={{p:5,}}>
               <Box>
@@ -97,7 +97,7 @@ Visit Dr. Akshay's DentAvenue, a leading dental clinic in Chembur. Our compassio
               </Box>
 
             </Grid>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6}> */}
             {/* <div className={classes.imgContainer}> */}
     {/* <img src='/images/main4.png'  alt="gradient" /> */}
     {/* <motion.img
@@ -130,12 +130,12 @@ Visit Dr. Akshay's DentAvenue, a leading dental clinic in Chembur. Our compassio
     >
               {/* <Image src='/images/main4.png' alt='' width={500} height={100} objectFit='contain' className='pngback' layout='responsive'/> */}
              </motion.img>
-              </Grid>
+              {/* </Grid>
           </Grid>
-        </Container>
+        </Container> */}
 
       {/* </Box> */}
-      </Grid>
+      {/* </Grid> */}
     </>
   )
 }

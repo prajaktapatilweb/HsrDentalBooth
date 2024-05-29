@@ -8,17 +8,16 @@ import Contact from '../components/home/Contact';
 import LabTabs from '../components/home/LabTabs';
 import HomeHero from "../components/home/hero";
 import Clinicinfo from "../components/home/Clinicinfo";
-import Team from "../components/home/Team";
+import Drgallery1 from "../components/home/Drgallery1";
 const Testimonial = lazy(() => import('../components/home/Testimonial'))
 
 export default function Home() {
   return (
     <>
-<HomeHero/>
-ffjg nkjkjrhgtr vhnkjtrjhjhktr
+
 <Clinicinfo/>
       <Dentalservices></Dentalservices>
-      <Team/>
+    <Drgallery1/>
       {/* <DrAkshay></DrAkshay> */}
       <Suspense fallback=
         {<div>Component are loading please wait...</div>}>

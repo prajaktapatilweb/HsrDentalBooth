@@ -12,17 +12,17 @@ const CourseCardItem = ({ item }) => {
   }}>
     <Box sx={{
 
-      // backgroundColor: 'background.paper',
-      // borderBottomLeftRadius: 4,
-      // borderBottomRightRadius: 4,
-      // transition: (theme) => theme.transitions.create(['box-shadow']),
+      backgroundColor: 'background.paper',
+      borderBottomLeftRadius: 4,
+      borderBottomRightRadius: 4,
+      transition: (theme) => theme.transitions.create(['box-shadow']),
 
-      // boxShadow: 2,
-      // [`& .${iconButtonClasses.root}`]: {
-      //   backgroundColor: 'primary.main',
-      //   color: 'primary.contrastText',
-      //   boxShadow: 2,
-      // },
+      boxShadow: 2,
+      [`& .${iconButtonClasses.root}`]: {
+        backgroundColor: 'primary.main',
+        color: 'primary.contrastText',
+        boxShadow: 2,
+      },
 
     }}>
       <Box sx={{
