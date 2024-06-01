@@ -9,14 +9,19 @@ import AppScrollbar from './AppScrollbar';
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 import CallTwoToneIcon from "@mui/icons-material/CallTwoTone";
 import EmailTwoToneIcon from "@mui/icons-material/EmailTwoTone";
 import Image from 'next/image';
+import { Link } from '@mui/material';
 
 const AppThemeSetting = () => {
   const [isSettingOpen, setSettingOpen] = useState(false);
   const [isColorSettingOpen, setColorSettingOpen] = useState(false);
+
+  const contactno2 = "+919702955057";
+
   return (
     <Box
       sx={{
@@ -24,6 +29,7 @@ const AppThemeSetting = () => {
         right: 0,
         top: { xs: 85, xl: 125 },
         zIndex: 1110,
+        
       }}
       className='customizerOption'
     >
@@ -44,15 +50,24 @@ const AppThemeSetting = () => {
           },
         }}
       >
-        <IconButton onClick={() => setSettingOpen(!isSettingOpen)} aria-label='location'>
-
-          <LocationOnIcon
+        <IconButton >
+        <Link
+                href={`https://wa.me/${contactno2}`}
+                target="_blank"
+                className="footermenu"
+               
+              >
+          <WhatsAppIcon
             sx={{
               animation: 'rotation 2s infinite linear',
               color: 'white',
+            
             }}
 
-          />
+          >
+        
+            </WhatsAppIcon>
+            </Link>
         </IconButton>
       </Box> 
 
@@ -72,16 +87,17 @@ const AppThemeSetting = () => {
           },
         }}
       >
-        <IconButton onClick={() => setColorSettingOpen(!isSettingOpen)} aria-label='contact'>
-          <ContactsIcon sx={{
+        <IconButton>
+        <Link
+                href={`tel:${contactno2}`}
+                target="_blank"
+                className="footermenu"
+              >
+          <CallTwoToneIcon sx={{
             color: 'white',
           }}
           />
-          {/* <ColorLensIcon
-            sx={{
-              color: 'white',
-            }}
-          /> */}
+        </Link>
         </IconButton>
       </Box>
       <Drawer

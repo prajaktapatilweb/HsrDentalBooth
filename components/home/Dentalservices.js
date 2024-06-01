@@ -3,13 +3,14 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Slider from "react-slick";
 import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
 import { useTheme, styled } from "@mui/material/styles";
 import { IconButton, useMediaQuery } from "@mui/material";
 import IconArrowBack from "@mui/icons-material/ArrowBack";
 import IconArrowForward from "@mui/icons-material/ArrowForward";
-import { data } from "./popular-course.data";
+import { Details} from "./popular-course.data";
 import { CourseCardItem } from "../course";
+import Heading from "./Heading";
+import { headList2 } from "../Constant/titlefile";
 const SliderArrow = (props) => {
   const { onClick, type, className } = props;
   return (
@@ -44,11 +45,11 @@ const StyledDots = styled("ul")(({ theme }) => ({
   "&.slick-dots": {
     position: "absolute",
     left: 0,
-    bottom: -20,
+    bottom: -25,
     paddingLeft: theme.spacing(1),
-    textAlign: "left",
+    textAlign: "center",
     "& li": {
-      marginRight: theme.spacing(2),
+      marginRight: theme.spacing(0),
       "&.slick-active>div": {
         backgroundColor: theme.palette.primary.main,
       },
@@ -63,7 +64,7 @@ const Dentalservices = () => {
     infinite: true,
     autoplay: true,
     speed: 300,
-    slidesToShow: matchMobileView ? 1 : matchMobileView1 ? 2 : 4,
+    slidesToShow: matchMobileView ? 1 : matchMobileView1 ? 2 : 3,
     slidesToScroll: 1,
     prevArrow: <SliderArrow type="prev" />,
     nextArrow: <SliderArrow type="next" />,
@@ -72,8 +73,8 @@ const Dentalservices = () => {
     customPaging: () => (
       <Box
         sx={{
-          height: 8,
-          width: 30,
+          height: 15,
+          width: 15,
           backgroundColor: "divider",
           display: "inline-block",
           borderRadius: 4,
@@ -87,23 +88,20 @@ const Dentalservices = () => {
       sx={{
         py: { xs: 7, md: 7 },
 
-        backgroundColor: "#f3fbfd",
-        // background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+        backgroundColor: "primary.light",
       }}
     >
       <Container maxWidth="lg">
         <Grid container spacing={2}>
           <Grid item xs={12} md={12}>
-            <div class="section-title">
-              <h2>Smile Solutions Hub</h2>
-              <p style={{marginTop:-5}}> Crafting Your Dream Smile: Our Range of Expert Services</p>
-            </div>
+              <Heading data={headList2}></Heading>
+              
 
           </Grid>
 
           <Grid item xs={12} md={12}>
             <Slider {...sliderConfig}>
-              {data.map((item) => (
+              {Details.map((item) => (
                 <CourseCardItem key={String(item.id)} item={item} />
               ))}
             </Slider>

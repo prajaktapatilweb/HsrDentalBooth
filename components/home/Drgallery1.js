@@ -8,9 +8,6 @@ import { useTheme, styled } from "@mui/material/styles";
 import { IconButton, useMediaQuery } from "@mui/material";
 import IconArrowBack from "@mui/icons-material/ArrowBack";
 import IconArrowForward from "@mui/icons-material/ArrowForward";
-import { data } from "./popular-course.data";
-import { CourseCardItem } from "../course";
-import Drgallery from "./Drgallery";
 import Drgalleryitem1 from "./Drgalleryitem1";
 import { heroPhotoList } from "../Constant/Photoslider";
 const SliderArrow = (props) => {

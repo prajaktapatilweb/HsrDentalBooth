@@ -13,17 +13,7 @@ const Drgalleryitem1 = ({ item }) => {
          <Box sx={{
 
 backgroundColor: '#e1e8f0',
-borderBottomLeftRadius: 4,
-borderBottomRightRadius: 4,
-transition: (theme) => theme.transitions.create(['box-shadow']),
-
-boxShadow: 2,
-[`& .${iconButtonClasses.root}`]: {
-  backgroundColor: 'primary.main',
-  color: 'primary.contrastText',
-  boxShadow: 2,
-},
-
+border:'1px solid #104099'
 }}>     
             <div class="member" >
               <div class="member-img">

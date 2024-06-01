@@ -107,8 +107,8 @@ function ResponsiveAppBar(props) {
     };
 
 
-    const contactno1 = "+919833389890";
-    const contactno2 = "+919702955057";
+    const contactno1 = "+917373736215";
+    // const contactno2 = "+919702955057";
 
     return (
         
@@ -149,25 +149,21 @@ function ResponsiveAppBar(props) {
                                 <CallTwoToneIcon />
                             </IconButton>
                            
-                            <Link href={`tel:${contactno2}`} target="_blank">
+                            <Link href={`tel:${contactno1}`} target="_blank">
                                 <a className="nav-link-inner--text" style={{ color: 'white' }}>
-                                    +919702955057
+                                    +917373736215
+
                                 </a>
                             </Link>
-                            /
-
-                            <Link  href={`tel:${contactno1}`} target="_blank">
-                                <a className="nav-link-inner--text" style={{ color: 'white' }}>
-                                +919833389890
-                                </a>
-                            </Link>{" "}
+                          
                             <IconButton aria-label="email" style={{ color: 'white' }}>
                                 <EmailTwoToneIcon />{" "}
                             </IconButton>
                             <Link 
-                           href={`mailto:${'Dynamicdentalcare2013@gmail.com'}`} target="_blank">
+                           href={`mailto:${' hsrdentalbooth@gmail.com'}`} target="_blank">
                                 <a className="nav-link-inner--text" style={{ color: 'white' }}>
-                                Dynamicdentalcare2013@gmail.com
+                                hsrdentalbooth@gmail.com
+
                                 </a>
                             </Link>
                         </Box>
@@ -189,7 +185,7 @@ function ResponsiveAppBar(props) {
                         <IconButton aria-label="facebook">
                             {" "}
                             <a
-                                href="https://www.facebook.com/dranujdynamicdentalcare/"
+                                href="https://www.facebook.com/hsrdentalbooth/"
                                 target="_blank"
                                 rel="noreferrer"
                                 aria-label="facebook"
@@ -200,7 +196,7 @@ function ResponsiveAppBar(props) {
                        
                         <IconButton aria-label="instagram">
                             <a
-                                href="https://www.instagram.com/dranuj6344/"
+                                href="https://www.instagram.com/hsrdentalbooth/"
                                 target="_blank"
                                 rel="noreferrer"
                                 aria-label="instagram"
@@ -212,7 +208,7 @@ function ResponsiveAppBar(props) {
                         </IconButton>
                         <IconButton aria-label="linkedin">
                             <a
-                                href="https://jsdl.in/DT-43QAIIEQQYA"
+                                href="https://www.justdial.com/Bangalore/Hsr-Dental-Booth-Multispeciality-Dental-Clinic-Opposite-Apollo-Pharmacy-HSR-Layout/080PXX80-XX80-201030170037-N3X2_BZDET"
                                 target="_blank"
                                 rel="noreferrer"
                                 aria-label="linkedin"

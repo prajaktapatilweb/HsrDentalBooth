@@ -9,6 +9,8 @@ import IconArrowBack from "@mui/icons-material/ArrowBack";
 import IconArrowForward from "@mui/icons-material/ArrowForward";
 import { MentorCardItem } from "../mentor";
 import { data } from "./mentors.data";
+import Heading from "./Heading";
+import { headList6 } from "../Constant/titlefile";
 const SliderArrow = (props) => {
     const { onClick, type, className } = props;
     return (
@@ -48,9 +50,9 @@ const StyledDots = styled("ul")(({ theme }) => ({
         // paddingLeft: theme.spacing(1),
         textAlign: "center",
         "& li": {
-            marginRight: theme.spacing(2),
+            marginRight: theme.spacing(0),
             "&.slick-active>div": {
-                backgroundColor: theme.palette.primary.light,
+                backgroundColor: theme.palette.primary.dark,
             },
         },
     },
@@ -89,10 +91,7 @@ const Testimonial = () => {
             }}
         >
             <Container>
-                <div class="section-title">
-                    <h2>Testimonials</h2>
-                    <p>Genuine Google Reviews from Our Satisfied Patients</p>
-                </div>
+               <Heading data={headList6}></Heading>
                 <Slider {...sliderConfig}>
                     {data.map((item) => (
                         <MentorCardItem key={String(item.id)} item={item} />

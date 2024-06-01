@@ -94,25 +94,17 @@ const Footer = () => {
             <Typography variant="h4" sx={{ fontWeight: "400" }} gutterBottom>
               Get In Touch
             </Typography>
-          
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15076.329523138258!2d72.9939084!3d19.1478709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf5357d89b7f%3A0xed6d36e32f7534ab!2sDynamic%20Dental%20Care!5e0!3m2!1sen!2sin!4v1715864098424!5m2!1sen!2sin"  width="48%"
-              height="100%"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15555.696331475541!2d77.6328482!3d12.9126008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae151b5da1d51f%3A0xa04c2a52f0962d30!2sHSR%20Dental%20Booth!5e0!3m2!1sen!2sin!4v1716989100989!5m2!1sen!2sin"   height="100%"
+              width="100%"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              style={{ marginBottom: 3, marginTop: 3,marginRight:4 }}></iframe> 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15071.132131692939!2d72.9851153!3d19.2046766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b936d2fde0c1%3A0xf5ef3c3e031df47f!2sDynamic%20Dental%20Care%20-%20Best%20dentist%20in%20thane!5e0!3m2!1sen!2sin!4v1715864246797!5m2!1sen!2sin"   width="48%"
-              height="100%"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              style={{ marginBottom: 3, marginTop: 3 }}></iframe>
-
-          
-
+              style={{ marginBottom: 3, marginTop: 3,marginRight:4 }}></iframe>
+           
             {/* <FooterSocialLinks /> */}
 
           </Grid>
 
-          <Box>
+          {/* <Box>
             <div style={{ position: 'fixed', right: '40px', bottom: '40px', zIndex: 996, background: 'black', borderRadius: 5 }}>
               <Link
                 href={`tel:${contactno2}`}
@@ -134,7 +126,7 @@ const Footer = () => {
                 <Image src="/images/whatsapp.webp" width={50} height={50} />
               </Link>
             </div>
-          </Box>
+          </Box> */}
 
 
           {/* <Whatsappnew /> */}

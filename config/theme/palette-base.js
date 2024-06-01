@@ -1,6 +1,6 @@
 const paletteBase = {
     primary: {
-        light: '#00af89',
+        light: '#e1e8f0',
         // main: '#127C71',
         main: '#00af89',
         dark: '#104099',

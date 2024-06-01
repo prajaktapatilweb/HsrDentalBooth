@@ -1,10 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Box from '@mui/material/Box';
-import Rating from '@mui/material/Rating';
 import Typography from '@mui/material/Typography';
-import IconButton, { iconButtonClasses } from '@mui/material/IconButton';
-import ArrowForward from '@mui/icons-material/ArrowForward';
+import { iconButtonClasses } from '@mui/material/IconButton';
+import { Avatar, Card } from '@mui/material';
 const CourseCardItem = ({ item }) => {
   return (<Box sx={{
     px: 1,
@@ -25,31 +24,18 @@ const CourseCardItem = ({ item }) => {
       },
 
     }}>
-      <Box sx={{
-        lineHeight: 0,
-        overflow: 'hidden',
-        mb: 2,
-      }}>
-        <Image src={item.cover} height={100}
-          width={100}
-          layout='responsive' objectFit='contain' alt={'DentalService' + item.id} className='pngback1' style={{ borderRadius: '25% 75% / 50%' }} />
-      </Box>
-      <Box sx={{ p: 3, }}>
-        <Box sx={{ mb: 1 }}>
-          <Typography component="h2" variant="h5" sx={{ color: "primary.dark", overflow: 'hidden', fontSize: '1.5rem', fontWeight: 500 }}>
-            {item.title}
-          </Typography>
 
-        </Box>
-        {/* <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}> */}
-          <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
-            <Typography component="span">
-              {item.price}
-            </Typography>
-          {/* </Box> */}
 
-        </Box>
-      </Box>
+<Card sx={{ p: 3,height:'100%' }}>
+                                    <Avatar alt="R" src='' sx={{ margin: 'auto', width: 60, height: 60, backgroundColor: "primary.main", padding: 5, }}><Image src={item.icons} width={50} height={50}></Image></Avatar>
+
+                                    <Typography variant='h4' sx={{ py: 2 ,textAlign:'center',color: "primary.dark"}}> {item.title} </Typography>
+                                    <Typography variant='body1' sx={{ textAlign: 'justify' }}>
+                                        {item.info}
+                                    </Typography>
+
+                                </Card>
+    
     </Box>
   </Box>);
 };

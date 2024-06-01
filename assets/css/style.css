@@ -1306,3 +1306,14 @@ section {
 .pngback1{
   filter:drop-shadow(1px 1px 3px #00af89);
 }
+
+.photo-gallery {
+  .slick-slide {
+    opacity: 0.3; /* Adjust opacity for non-centered images */
+    transition: opacity 0.5s ease; /* Add transition effect */
+  }
+
+  .slick-center {
+    opacity: 1; /* Keep full opacity for centered image */
+  }
+}

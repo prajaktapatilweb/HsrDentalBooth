@@ -10,6 +10,8 @@ import IconArrowBack from "@mui/icons-material/ArrowBack";
 import IconArrowForward from "@mui/icons-material/ArrowForward";
 import { data } from "./photo-gallery.data";
 import PhotoCardItem from "../course/photo-card-item";
+import Heading from "./Heading";
+import { headList1 } from "../Constant/titlefile";
 const SliderArrow = (props) => {
   const { onClick, type, className } = props;
   return (
@@ -44,11 +46,11 @@ const StyledDots = styled("ul")(({ theme }) => ({
   "&.slick-dots": {
     position: "absolute",
     left: 0,
-    bottom: -20,
+    bottom: -30,
     paddingLeft: theme.spacing(1),
-    textAlign: "left",
+    textAlign: "center",
     "& li": {
-      marginRight: theme.spacing(2),
+      marginRight: theme.spacing(0),
       "&.slick-active>div": {
         backgroundColor: theme.palette.primary.main,
       },
@@ -72,8 +74,8 @@ const Photogallery = () => {
     customPaging: () => (
       <Box
         sx={{
-          height: 8,
-          width: 30,
+          height: 15,
+          width: 15,
           backgroundColor: "divider",
           display: "flex",
           borderRadius: 4,
@@ -86,14 +88,11 @@ const Photogallery = () => {
       id="gallery"
       sx={{
         py: { xs: 7, md: 7 },
-        backgroundColor: "#f7fcfc",
+        backgroundColor: "primary.light",
       }}
     >
       <Container maxWidth="lg">
-        <div class="section-title">
-          <h2>Smile Gallery</h2>
-          <p>Where Happiness Shines Bright</p>
-        </div>
+          <Heading data={headList1}></Heading>
 
 
         <Slider {...sliderConfig}>
