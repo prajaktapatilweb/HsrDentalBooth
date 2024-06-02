@@ -101,7 +101,7 @@ const Clinicinfo = () => {
                     <Container>
 
                         <Grid container spacing={3} >
-                            <Grid item xs={12} md={5}>
+                            <Grid item xs={12} md={6}>
                                 <Drgallery/>
                                 {/* <Image
                                     src="/images/clinic1.jpg"
@@ -113,12 +113,15 @@ const Clinicinfo = () => {
                                 /> */}
                                 {/* <img src="/images/dr-akshays-dentavenue-dental-clinic-chembur-mumbai.webp" class="img-fluid" alt="" /> */}
                             </Grid>
-                            <Grid item xs={12} md={7} textAlign='justify' sx={{p:5}}>
+                            <Grid item xs={12} md={6} textAlign='justify' sx={{p:5}}>
                                 <Typography variant="h1" sx={{fontSize:{xs:27,md:33},mt:{xs:3,md:0}}}> Best Dentist in Thane</Typography>
                                 <p class="fst-italic" style={{marginTop:4,marginBottom:0}}>
-                                    Welcome to Dynamic Dental Care and Implant Centre, your trusted destination for top-quality dental care in Airoli, Navi Mumbai, and Thane West. Founded by Dr. Anuj Mishra, a renowned Dental Surgeon and Implantologist, and co-founded by Dr. Shweta Mishra, our clinic is committed to delivering excellence in dental services.
+                                Welcome to HSR Dental Booth, the best dental clinic in HSR Layout, Bengaluru. As the premier dental clinic in HSR, we pride ourselves on maintaining high-quality standards while investing in the latest technology, education, and training. Led by Dr. Jalpa Tank, an expert Endodontist, our team offers a wide range of services, including General and Cosmetic Dentistry, Oral Surgery, Periodontics, Endodontics, Orthodontics, and Implantology, ensuring top-notch patient care and predictable, exceptional results.
+<br/>
+If you are looking for the best dentist in HSR Layout, our dental clinic stands out for its commitment to excellence. We go above and beyond to ensure that dentistry is practiced with the most modern materials and techniques. Trust HSR Dental Booth, under the expert guidance of Dr. Jalpa Tank, as your preferred dentist in HSR Layout and experience unparalleled dental care at the best dental clinic HSR Layout has to offer.
+
                                 </p>
-                                <List>
+                                {/* <List>
                                     {explist.map((item, i) => (
                                         <ListItem
                                             key={item}
@@ -127,12 +130,9 @@ const Clinicinfo = () => {
                                             {item}
                                         </ListItem>
                                     ))}
-                                </List>
+                                </List> */}
 
-                                <p>
-                                Experience the difference at Dynamic Dental Care and Implant Centre, where your smile is our priority. Schedule your appointment today for comprehensive and personalized dental care.
-
-                                </p>
+                                
                             </Grid>
                         </Grid>
 

@@ -1317,3 +1317,43 @@ section {
     opacity: 1; /* Keep full opacity for centered image */
   }
 }
+
+
+
+
+/*for same height card of slider*/
+
+
+.custom-slider .slick-slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 350px; /* Default height for slides */
+}
+
+.custom-slider .slick-slide .content {
+  width: 100%; /* Ensure the content width is controlled */
+  text-align: center; /* Center align text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .custom-slider .slick-slide {
+      height: 400px; /* Adjust height for medium screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .custom-slider .slick-slide {
+      height: 200px; /* Adjust height for small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-slider .slick-slide {
+      height: 300px; /* Adjust height for very small screens */
+  }
+}
+
+
+/* end for same height card of slider*/

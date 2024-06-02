@@ -4,43 +4,14 @@ import Grid from "@mui/material/Grid";
 import Slider from "react-slick";
 import Container from "@mui/material/Container";
 import { useTheme, styled } from "@mui/material/styles";
-import { IconButton, useMediaQuery } from "@mui/material";
+import { Card, IconButton, useMediaQuery } from "@mui/material";
 import IconArrowBack from "@mui/icons-material/ArrowBack";
 import IconArrowForward from "@mui/icons-material/ArrowForward";
 import { Details} from "./popular-course.data";
 import { CourseCardItem } from "../course";
 import Heading from "./Heading";
 import { headList2 } from "../Constant/titlefile";
-const SliderArrow = (props) => {
-  const { onClick, type, className } = props;
-  return (
-    <IconButton
-      sx={{
-        backgroundColor: "background.paper",
-        color: "primary.main",
-        "&:hover": {
-          backgroundColor: "primary.main",
-          color: "primary.contrastText",
-        },
-        bottom: { xs: "-70px !important", md: "-28px !important" },
-        left: "unset !important",
-        right: type === "prev" ? "60px !important" : "0 !important",
-        zIndex: 10,
-        boxShadow: 1,
-      }}
-      disableRipple
-      color="inherit"
-      onClick={onClick}
-      className={className}
-    >
-      {type === "next" ? (
-        <IconArrowForward sx={{ fontSize: 22 }} />
-      ) : (
-        <IconArrowBack sx={{ fontSize: 22 }} />
-      )}
-    </IconButton>
-  );
-};
+
 const StyledDots = styled("ul")(({ theme }) => ({
   "&.slick-dots": {
     position: "absolute",
@@ -64,10 +35,11 @@ const Dentalservices = () => {
     infinite: true,
     autoplay: true,
     speed: 300,
+    arrows:false,
+
     slidesToShow: matchMobileView ? 1 : matchMobileView1 ? 2 : 3,
     slidesToScroll: 1,
-    prevArrow: <SliderArrow type="prev" />,
-    nextArrow: <SliderArrow type="next" />,
+   
     dots: true,
     appendDots: (dots) => <StyledDots>{dots}</StyledDots>,
     customPaging: () => (
@@ -91,7 +63,7 @@ const Dentalservices = () => {
         backgroundColor: "primary.light",
       }}
     >
-      <Container maxWidth="lg">
+      <Container>
         <Grid container spacing={2}>
           <Grid item xs={12} md={12}>
               <Heading data={headList2}></Heading>
@@ -100,11 +72,15 @@ const Dentalservices = () => {
           </Grid>
 
           <Grid item xs={12} md={12}>
-            <Slider {...sliderConfig}>
-              {Details.map((item) => (
+          <Slider {...sliderConfig} className="custom-slider">
+          {Details.map((item) => (
+              <div className="slide">
                 <CourseCardItem key={String(item.id)} item={item} />
+                </div>
               ))}
-            </Slider>
+           
+        </Slider>
+          
           </Grid>
         </Grid>
       </Container>

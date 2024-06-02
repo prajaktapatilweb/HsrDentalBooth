@@ -12,36 +12,7 @@ import { data } from "./photo-gallery.data";
 import PhotoCardItem from "../course/photo-card-item";
 import Heading from "./Heading";
 import { headList1 } from "../Constant/titlefile";
-const SliderArrow = (props) => {
-  const { onClick, type, className } = props;
-  return (
-    <IconButton
-      sx={{
-        backgroundColor: "background.paper",
-        color: "primary.main",
-        "&:hover": {
-          backgroundColor: "primary.main",
-          color: "primary.contrastText",
-        },
-        bottom: { xs: "-70px !important", md: "-28px !important" },
-        left: "unset !important",
-        right: type === "prev" ? "60px !important" : "0 !important",
-        zIndex: 10,
-        boxShadow: 1,
-      }}
-      disableRipple
-      color="inherit"
-      onClick={onClick}
-      className={className}
-    >
-      {type === "next" ? (
-        <IconArrowForward sx={{ fontSize: 22 }} />
-      ) : (
-        <IconArrowBack sx={{ fontSize: 22 }} />
-      )}
-    </IconButton>
-  );
-};
+
 const StyledDots = styled("ul")(({ theme }) => ({
   "&.slick-dots": {
     position: "absolute",
@@ -64,11 +35,11 @@ const Photogallery = () => {
     infinite: true,
     autoplay: true,
     adaptiveheight: false,
+    arrows:false,
     speed: 300,
     slidesToShow: matchMobileView ? 1 : 3,
     slidesToScroll: 1,
-    prevArrow: <SliderArrow type="prev" />,
-    nextArrow: <SliderArrow type="next" />,
+    
     dots: true,
     appendDots: (dots) => <StyledDots>{dots}</StyledDots>,
     customPaging: () => (
