@@ -113,7 +113,7 @@ Visit Dr. Akshay's DentAvenue, a leading dental clinic in Chembur. Our compassio
        alt="floater"
     /> */}
 {/* </div> */}
-<motion.img
+{/* <motion.img
        initial={{ y: -10 }}
        animate={{ y: 10 }}
        transition={{
@@ -122,14 +122,15 @@ Visit Dr. Akshay's DentAvenue, a leading dental clinic in Chembur. Our compassio
          duration: 2,
          repeat: Infinity,
        }}
-       src={'/images/main4.png'}
+       src={'/images/main6.png'}
        width='100%'
        height='100%'
        className='pngback'
        alt="floater"
-    >
-              {/* <Image src='/images/main4.png' alt='' width={500} height={100} objectFit='contain' className='pngback' layout='responsive'/> */}
-             </motion.img>
+    > */}
+              <Image src='/images/main6.png' alt='' width={500} height={100} style={{marginBottom:-10}}
+               objectFit='contain' className='pngback' layout='responsive'/>
+             {/* </motion.img> */}
               {/* </Grid>
           </Grid>
         </Container> */}
