@@ -36,7 +36,7 @@ const PhotoCardItem = ({ item }) => {
 
           <Image
             alt={'Course ' + item.id}
-            src={`/images/clinicphotos/patient${item}.jpg`}
+            src={`/images/patients/patient${item}.jpg`}
             width={100}
             height={100}
             layout='responsive'></Image>
