@@ -9,17 +9,12 @@ export default function Thankyou() {
             {/* <HomeHero /> */}
             <Box
                 sx={{
-                    backgroundImage: `url("/images/heroimg3.webp")`,
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: 'cover',
+                    background: 'linear-gradient(to right, #104099 40%, #2dd3aa 100%, #2dd3aa 100%, #104099 10%)',
                     display: 'flex',
-                    // width: '100%',
-                    height: '83vh',
-
+                    height: '100vh',
                     alignItems: 'center',
                     justifyItems: 'center'
 
-                    // py: { xs: 7, md: 14 },
                 }}
             >
                 {/* "thank you " : null} */}
@@ -41,7 +36,8 @@ export default function Thankyou() {
                                         textAlign: 'center'
                                     }}
                                 >
-                                    Thank you for showing interest in <Link href="/" sx={{ color: 'white' }}>Dynamic Dental Care </Link>. We will contact you shortly.
+                                    Thank you for showing interest in <Link href="/" sx={{ color: 'orange' }}> HSR Dental Booth
+ </Link>. We will contact you shortly.
                                 </Typography>
                                 <Stack direction='column' alignItems='center' >
                                     <Button size="large" variant="contained" sx={{ mt: 2, fontSize: 17, backgroundColor: 'secondary.main', alignContent: 'center', color: 'white' }}>

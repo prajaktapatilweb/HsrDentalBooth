@@ -1301,7 +1301,7 @@ section {
 
 /* end parallox section */
 .pngback {
-  /* filter:drop-shadow(2.5px 2.5px 3px #f0f0f0); */
+  filter:drop-shadow(2.5px 2.5px 2px #f0f0f0);
 }
 .pngback1{
   filter:drop-shadow(1px 1px 3px #00af89);

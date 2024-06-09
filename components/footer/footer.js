@@ -28,7 +28,8 @@ const Footer = () => {
         <Grid container spacing={2} alignItems='center' justifyContent='center'>
           <Grid item xs={12} md={5}>
             <Box sx={{ mb: { xs: 3, md: 0 } }}>
-            <Image src="/images/ddclogo.jpeg" width={180} height={100} ></Image>
+            <Image src="/images/hsrlogo4.png" width={100} height={90} className="pngback"></Image>
+
 
             
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>

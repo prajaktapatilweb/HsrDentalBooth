@@ -1,51 +1,49 @@
 export const Details = [
     {
-        icons: "/images/icons/implant.png",
-        title: 'Dental implants',
-        info: 'Restore your smile\'s strength and functionality with our expert dental implant treatment in Dombivli West.'
-    },
-    {
-        icons: "/images/icons/dental-care.png",
-        title: 'Crowns & Bridges',
-        info: 'Experience top-quality crowns and bridges treatment in Dombivli West for lasting, natural-looking results.'
-    },
-    {
         icons: "/images/icons/dental-care2.png",
-        title: 'Tooth Extraction',
-        info: 'Experience safe and comfortable tooth extraction treatment in Dombivli West, performed by our skilled professionals.'
-    },
-
-    {
-        icons: "/images/icons/dental-care2.png",
-        title: 'Pediatric Dentistry',
-        info: ' Ensure your child\'s oral health with gentle and specialized pediatric dentistry treatment in Dombivli West.'
-    },
-    {
-        icons: "/images/icons/braces.png",
-        title: 'Braces & Aligners',
-        info: 'Straighten your smile effectively and comfortably with our braces and aligners treatment in Dombivli West.'
-    },
-    {
-        icons: "/images/icons/root.png",
-        title: 'Root Canal',
-        info: 'Relieve pain and save your natural tooth with our precise root canal treatment in Dombivli West.'
+        title: 'Dental Implants',
+        info: 'Discover permanent dental implants for missing teeth at our HSR Layout dental clinic. Our skilled dentist in HSR Layout offers advanced implant treatments, providing stability and functionality to your smile with state-of-the-art technology.'
     },
     {
         icons: "/images/icons/whitening.png",
-        title: 'Teeth Whitening',
-        info: 'Achieve a dazzling smile with our advanced teeth whitening treatment in Dombivli West, tailored to your unique needs.'
+        title: 'Crowns & Bridges',
+        info: 'Restore your smile\'s strength and beauty with high-quality crowns and bridges at our dentist near HSR Layout. Our expert prosthodontists create custom restorations to address damaged or missing teeth, ensuring long-lasting results and patient satisfaction.'
     },
+   
     {
-        icons: "/images/icons/veeners.png",
-        title: 'Dental Veneers',
-        info: 'Transform your smile with our precision-crafted dental veneers in Dombivli West. Achieve a flawless, natural look and regain your confidence.'
+        icons: "/images/icons/dental-care.png",
+        title: 'Root Canal',
+        info: 'Relieve tooth pain and preserve your natural smile with precise root canal treatments available at our dental clinic near HSR Layout. Our experienced endodontists ensure comfortable and effective root canal therapy using modern techniques.'
     },
+   
+
     {
         icons: "/images/icons/dental-care2.png",
-        title: 'Full Mouth Reconstruction',
-        info: 'Experience a comprehensive revitalization of your smile through our full mouth reconstruction services in Dombivli West.  This treatment ensures a harmonious and functional oral environment.'
-
-    }
+        title: 'Dental Veneers',
+        info: 'Transform your smile with custom dental veneers at our best dental clinic in HSR Layout. Our skilled cosmetic dentists specialize in crafting natural-looking veneers, enhancing your smile\'s appearance and confidence with high-quality materials.'
+    },
+    {
+        icons: "/images/icons/braces.png",
+        title: 'Tooth Extraction',
+        info: 'Ensure your comfort and oral health with gentle tooth extraction services at our dental health care centre in HSR Layout. Our caring dentists provide expert extraction procedures, alleviating pain and preserving your smile\'s integrity with compassionate care.'
+    },
+    {
+        icons: "/images/icons/root.png",
+        title: 'Pediatric Dentistry',
+        info: 'Provide your child with gentle and comprehensive dental care at our HSR Layout dental clinic, led by a good dentist in HSR Layout. Our friendly pediatric dentists specialize in children\'s dental health, creating positive experiences for young patients with a kid-friendly environment and gentle techniques.'
+    },
+  
+    {
+        icons: "/images/icons/veeners.png",
+        title: 'Teeth Whitening',
+        info: 'Brighten your smile and boost your confidence with professional teeth whitening treatments at our HSR Layout dental clinic, led by the best dentist in HSR Layout. Our experienced dental team offers safe and effective whitening solutions for a radiant smile using the latest whitening technology.'
+    },
+    {
+        icons: "/images/icons/implant.png",
+        title: 'FMR (Full Mouth Reconstruction)',
+        info: 'Experience comprehensive full mouth reconstruction services at our dental clinic in HSR Layout. Our expert team specializes in FMR procedures, ensuring your smile\'s health and beauty are restored to perfection with personalized care.'
+    },
+   
 ]
 
 // export const data = [

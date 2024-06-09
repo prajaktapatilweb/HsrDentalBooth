@@ -7,14 +7,14 @@ const headDetails = {
     },
     about: {
 
-        subtitle: "Our Dental Journey",
-        title: "  Establishing Excellence in Dental Care",
+        subtitle:"Best Dental Clinic in HSR Layout",
+        title:  "Our Dental Journey",
 
     },
     service: {
 
-        subtitle:'Explore Our Services',
-        title: "Establishing Excellence in Dental Care",
+        subtitle:' Explore the most advanced dental care solutions offered just for your smile\'s brilliance.',
+        title: "Exceptional Solutions for Excellent Results",
 
     },
     equip: {

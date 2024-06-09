@@ -99,7 +99,7 @@ const Clinicinfo = () => {
         <>
 
             {/* <!-- ======= About Us Section ======= --> */}
-                <section id="about" class="about" style={{ background: 'white' }}>
+                <section id="aboutus" class="about" style={{ background: 'white' }}>
                     <Container>
 <Heading data={headList1}></Heading>
                         <Grid container spacing={3} >

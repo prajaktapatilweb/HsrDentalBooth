@@ -46,7 +46,7 @@ const DrAkshay = () => {
   ]
 
   return (
-    <Box sx={{ py: { xs: 7, md: 5 }, backgroundColor: "background.paper" }}>
+    <Box id='Doctors' sx={{ py: { xs: 7, md: 5 }, backgroundColor: "background.paper" }}>
       <Container>
        <Heading data={headList3}></Heading>
         <Grid

@@ -1397,6 +1397,11 @@ react-floating-whatsapp@^5.0.8:
   resolved "https://registry.npmjs.org/react-floating-whatsapp/-/react-floating-whatsapp-5.0.8.tgz"
   integrity sha512-4X485d04u7MoWpn61OpWPO/mL94P3gaFq1L932ztH7bo9eClAFcg5ufIxNKbJo9/1h0xpjWZKEW0KBB0apWzZw==
 
+react-icons@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.npmjs.org/react-icons/-/react-icons-5.2.1.tgz"
+  integrity sha512-zdbW5GstTzXaVKvGSyTaBalt7HSfuK5ovrzlpyiWHAFXndXTdd/1hdDHI4xBM1Mn7YriT6aqESucFl9kEXzrdw==
+
 react-intersection-observer@^9.5.2:
   version "9.5.2"
   resolved "https://registry.npmjs.org/react-intersection-observer/-/react-intersection-observer-9.5.2.tgz"
@@ -1455,7 +1460,7 @@ react-transition-group@^4.4.2, react-transition-group@^4.4.5:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-"react@^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.2.0", react@^18.0.0, react@^18.2.0, "react@>= 16.3.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@>=16.6.0, react@>=16.8.0, react@>=18.0.0, react@18.2.0:
+react@*, "react@^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.2.0", react@^18.0.0, react@^18.2.0, "react@>= 16.3.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@>=16.6.0, react@>=16.8.0, react@>=18.0.0, react@18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==

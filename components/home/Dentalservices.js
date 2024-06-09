@@ -16,7 +16,7 @@ const StyledDots = styled("ul")(({ theme }) => ({
   "&.slick-dots": {
     position: "absolute",
     left: 0,
-    bottom: -25,
+    bottom: -40,
     paddingLeft: theme.spacing(1),
     textAlign: "center",
     "& li": {
