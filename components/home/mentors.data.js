@@ -5,27 +5,37 @@ export const data = [
 
         id: 1,
         photo: '/images/mentors/testi1.jpeg',
-        name: 'Shrinand Sagavkar',
+        name: 'Lisha Papneja',
         category: '',
-        description: 'Very excellent treatment. I am totally satisfied and happy because I have prolonged dental and Gums issues so many years I can\'t brush after removing some teeth and route canal and installing dental bridge. My problem is solved. Thanks to Dr. Mishra',
+        description: 'Dr. Jalpa is extremely helpful. I had called to enquire about her availability, but she provided consultation on call anyway. I was overwhelmed to receive such a response because I had a bad tooth ache and needed immediate help. Would be forever obliged to the lady.',
 
     },
     {
 
         id: 2,
         photo: '/images/mentors/testi2.jpeg',
-        name: 'Siddhi Sakpal',
+        name: 'Shuvra Halder-',
         category: '',
-        description: 'Used digital cap impression to make the job much easier. It was a good experience😊',
+        description: 'Dr. Jalpa for me is the best Dentist in HSR. She explains about the dental related issues very clearly and patiently.  She makes the patient very comfortable. I recently had Root Canal treatment, I am happy with the service and treatment. The clinic is Hygiene and clean. I highly recommend HSR Dental Booth and Dr Jalpa.',
+
+    },
+    {
+
+        id: 6,
+        photo: '/images/mentors/testi6.jpeg',
+        name: 'Sarath Kumar ',
+        category: ' ',
+        description: <span>Went to the clinic to get my RCT done with a lot of PTSD. But the doctors assured me a painless treatment and im glad I chose this clinic over others. Highly recommend. Besides they also give good medical advice and are very patient to hear your concerns and requirements before deciding the best course of action. Patients first.</span>,
 
     },
     {
 
         id: 3,
         photo: '/images/mentors/testi3.jpeg',
-        name: 'Ranjeet Mishra',
+        name: 'LeAnne Titus',
         category: '',
-        description: 'Doctor is very co- operative and supportive.  I had been in her contact since 2019, very nice experience.',
+        description: <span> researched in Practo for a good conservative dentist and I was able to find Dr. Jalpa Tank. From the first conversation itself, she couldn't be more clearer in explaining me the dental process that I may need to go through. I'm sure every doctor knows what they are doing with their experience but Dr Jalpa was patient to explain every point precisely from a patient understanding perspective.
+</span>,
 
     },
 
@@ -33,28 +43,37 @@ export const data = [
 
         id: 4,
         photo: '/images/mentors/testi4.jpeg',
-        name: 'Priyanka Dutta',
+        name: 'Reshma Babu Parambi ',
         category: ' ',
-        description: <span>Doctor Shweta is very professional, very thorough. I went for dental filling, she made sure the entire procedure is painless and as comfortable as can be for me. The filling were absolutely precise. Thank you so much.</span>,
+        description: 'Excellent treatment. Doctor explains everything in detail so that you can understand your teeth situation. Thanks a lot doctor for your service.😃',
 
     },
     {
 
         id: 5,
         photo: '/images/mentors/testi5.jpeg',
-        name: ' Shailja Shukla',
+        name: ' Zohra Sharief',
         category: ' ',
-        description: <span>I consulted Dr Shweta and Dr Anuj for my mother's root canal, the treatment which my mom received is the best. My mother is very happy, she smiles confidently. Highly recommend! Thank you so much to them.</span>,
+        description: <span>I visited the clinic with pain. And doctor explained me so well about the treatment. I had painless procedure. Would surely recommend this clinic. 👍</span>,
+
+    },
+   
+    {
+
+        id: 7,
+        photo: '/images/mentors/testi7.jpeg',
+        name: 'Ashish Shewale ',
+        category: ' ',
+        description: <span>Doctor Jalpa is an expert in what she does. She made sure that I was comfortable throughout the procedure. Happy with the results post treatment.</span>,
 
     },
     {
 
-        id: 6,
-        photo: '/images/mentors/testi6.jpeg',
-        name: ' DHRUV CHAWDA ',
+        id: 8,
+        photo: '/images/mentors/testi8.jpeg',
+        name: 'Ayesha Sharief',
         category: ' ',
-        description: <span>Excellent diagnosis and treatment.. Complete resolution of all the dental problems that I was suffering since 2 years .. Good staff.. Thanks Doctor</span>,
+        description: <span>Dr Zohra offered me the best dental oral care services.</span>,
 
     },
-   
 ];

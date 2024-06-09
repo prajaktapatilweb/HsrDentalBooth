@@ -10,7 +10,7 @@ export default function Heading({ data }) {
                         <Typography variant='p' sx={{color:'primary.dark'}}>
                             {item.title}
                         </Typography>
-                        <Typography variant="h1" sx={{color:'primary.dark',pb:3}}>
+                        <Typography variant="h2" sx={{color:'primary.dark',pb:3}}>
                             {item.subtitle}
                         </Typography>
                     </Box>

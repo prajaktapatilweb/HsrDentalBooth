@@ -4,7 +4,7 @@ import Drgalleryitem1 from "./Drgalleryitem1";
 import { heroPhotoList } from "../Constant/Photoslider";
 import Heading from "./Heading";
 import { headList3} from "../Constant/titlefile";
-import { Box } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import { useTheme, styled } from "@mui/material/styles";
 import { IconButton, useMediaQuery } from "@mui/material";
 
@@ -72,11 +72,15 @@ const Centermode = () => {
     <Heading data={headList3}></Heading>
 
     <div className="photo-gallery">
-      <Slider {...settings}>
+      {/* <Slider {...settings}> */}
+      <Grid container spacing={2} alignItems='center' justifyContent='center' textAlign='center'>
+                                                    
               {heroPhotoList.map((item) => (
                 <Drgalleryitem1 key={String(item.id)} item={item} />
-              ))}         
-         </Slider>  
+              ))}   
+               
+              </Grid>     
+         {/* </Slider>   */}
     </div>
     </Box>
     </>

@@ -19,8 +19,8 @@ const headDetails = {
     },
     equip: {
 
-        subtitle: "Smile with Confidence at Smiledent",
-        title: "Doctors ",
+        subtitle: "World Class Equipments to ensure your complete comfort", 
+        title:"Our Dental Quiver",
 
     },
     wyuus: {
@@ -29,17 +29,17 @@ const headDetails = {
 
     },
     photos: {
-        subtitle: 'Capturing Dental Care',
-        title: 'Every Smile Matters'
+        subtitle: ' We empower smiles that empower our journey.', 
+        title:'Hall of Fame',
 
     },
     testi: {
-        subtitle: 'What Our Clients Say',
-        title: 'Feedback'
+        subtitle: 'Reviews that we treasure the most. Their trust; our reward.',
+        title: 'Words that inspire us!'
     },
     contactus: {
-        subtitle: 'What Our Clients Say',
-        title: 'Contact Us'
+        subtitle: 'Why wait, when you can get rid of your dental problems with a call?',
+        title: 'Get in Touch: Because Your Smile Matters!'
     },
     doctors: {
         subtitle: 'The Real',

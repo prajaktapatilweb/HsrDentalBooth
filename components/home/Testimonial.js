@@ -62,6 +62,7 @@ const Testimonial = () => {
     const matchMobileView = useMediaQuery(breakpoints.down("sm"));
     const sliderConfig = {
         infinite: true,
+        arrows:false,
         // autoplay: true,
         speed: 300,
         slidesToShow: matchMobileView ? 1 : 3,

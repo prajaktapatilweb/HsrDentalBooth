@@ -11,7 +11,7 @@ import IconArrowForward from "@mui/icons-material/ArrowForward";
 import { data } from "./photo-gallery.data";
 import PhotoCardItem from "../course/photo-card-item";
 import Heading from "./Heading";
-import { headList1 } from "../Constant/titlefile";
+import { headList1, headList5 } from "../Constant/titlefile";
 
 const StyledDots = styled("ul")(({ theme }) => ({
   "&.slick-dots": {
@@ -63,7 +63,7 @@ const Photogallery = () => {
       }}
     >
       <Container maxWidth="lg">
-          <Heading data={headList1}></Heading>
+          <Heading data={headList5}></Heading>
 
 
         <Slider {...sliderConfig}>

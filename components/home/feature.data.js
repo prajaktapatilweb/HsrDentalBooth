@@ -9,23 +9,23 @@ import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import Diversity3Icon from '@mui/icons-material/Diversity3';
 export const data = [
     {
-        title: 'Comprehensive Care:',
-        description: 'Enjoy a full range of dental services for the whole family under one roof.',
+        title: 'Personalized Patient Care:',
+        description: 'Our team prioritizes individualized treatment plans tailored to each patient\'s unique needs, ensuring a personalized and effective dental experience.',
         icon: <VolunteerActivismIcon />,
     },
     {
-        title: 'Advanced Technology:',
-        description: 'A Benefit from state-of-the-art tools and techniques for precise and comfortable treatments.',
+        title: 'Comfortable Patient Experience:',
+        description: ' Our clinic provides a warm and welcoming environment designed to put patients at ease, offering comfort amenities and attentive care throughout their visit.',
         icon: <BiotechIcon />,
     },
     {
-        title: 'Exceptional Experience:',
-        description: 'Our friendly team creates a welcoming environment, focusing on your comfort and satisfaction.',
+        title: 'Consultations and Education:',
+        description: ' We believe in empowering patients through thorough consultations and comprehensive education, enabling them to make informed decisions about their oral health.',
         icon: <Diversity3Icon />,
     },
     {
-        title: 'Skilled Professionals:',
-        description: 'Trust our highly trained experts to deliver top-notch care using the latest practices and techniques.',
+        title: 'Community Involvement: ',
+        description: 'Beyond providing exceptional dental care, we are actively involved in our local community, participating in outreach programs and initiatives to promote oral health and wellness for all.',
         icon: <AccountCircleIcon />,
     },
 ];

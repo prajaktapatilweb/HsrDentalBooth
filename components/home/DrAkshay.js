@@ -14,6 +14,8 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { CardActionArea } from "@mui/material";
 import FileDownloadDoneIcon from "@mui/icons-material/FileDownloadDone";
+import Heading from "./Heading";
+import { headList3 } from "../Constant/titlefile";
 
 const DrAkshay = () => {
   const variants = {
@@ -26,21 +28,27 @@ const DrAkshay = () => {
   const Lists = motion(List);
   const ListItems = motion(ListItem);
   const explist = [
-    "10+ Years of experience",
-    "Experienced Prosthodontist",
-    "Government Dental College Alumni",
-    "Comprehensive Treatment Solutions",
-    "Specialized in Implants and FMR",
-    "Former Assistant Professor",
+'12+ Years of experience',
+'Experienced Endodontist',
+'CSMSS Dental College Alumni',
+'Specialized in Endodontics and Cosmetic Dentistry',
+'Committed to Excellence',
+'Member of Dental Associations',
+
   ];
+  const explist1 = [
+'10+ Years of experience',
+'Experienced Orthodontist',
+'Government Dental College Alumni',
+'Specialized in Invisalign and Advanced Orthodontic Techniques',
+'Committed to Ongoing Education and Excellence',
+'Former Assistant Professor',
+  ]
+
   return (
     <Box sx={{ py: { xs: 7, md: 5 }, backgroundColor: "background.paper" }}>
       <Container>
-        <div class="section-title">
-        <h2>Meet Our Team of Expert Dentists</h2>
-<p>Leaders in Dental Excellence</p>
-         
-        </div>
+       <Heading data={headList3}></Heading>
         <Grid
           container
           spacing={0}
@@ -53,7 +61,7 @@ const DrAkshay = () => {
               <Grid item xs={12} sm={4}>
                 <Box sx={{p:3}}>
                 <Image
-                  src="/images/dr/drs6.jpg"
+                  src="/images/dr/dr11.jpeg"
                   alt="Avatar"
                   width={300}
                   height={300}
@@ -75,23 +83,14 @@ const DrAkshay = () => {
                       fontWeight: 700,
                       marginBottom: "5px",
                       fontSize: "30px",
-                      color:"primary.dark",
+                      color:"primary.main",
                     }}
                   >
                     
-                    Dr. Anuj Mishra
-                  </Typography>
-                  <span
-                    style={{
-                      fontSize: "18px",
+                    Dr. Jalpa Tank
 
-                      fontWeight: 500,
-                    }}
-                  >
-                    Dental Surgeon and Implantologist
-                    <br></br>
-                    Experience: 10+ Years
-                  </span>
+                  </Typography>
+                 
 
                   {/* {messages['dashboard.analytics.eddieMassy']} */}
                   <Typography
@@ -105,18 +104,20 @@ const DrAkshay = () => {
 
                     }}
                   >
-                    Dr. Anuj Mishra brings over a decade of expertise in
-                    transforming smiles and restoring oral health. As a
-                    dedicated dental surgeon and implantologist, he specializes
-                    in a range of advanced treatments, including Full Mouth
-                    Rehabilitation, Smile Designing, Dental Implants, Complete &
-                    Partial Dentures, Laminated & Veneers, Root Canal, Crown &
-                    Bridges, and various other dental procedures. With a
-                    commitment to excellence and a patient-centric approach, Dr.
-                    Anuj ensures each individual receives personalized care and
-                    achieves optimal oral wellness.
+                  Meet Dr. Jalpa, the Founder of HSR Dental Booth in Bangalore. With over 12 years of experience in dentistry, Dr. Jalpa completed her MDS in Conservative Dentistry and Endodontics from CSMSS Dental College, Aurangabad. She specializes in single visit root canals, retreatment of failed root canal treatments, smile designing, and teeth whitening. If you're searching for a skilled dentist in HSR Layout, Dr. Jalpa is your trusted professional. She is dedicated to providing comprehensive dental solutions tailored to your needs.
+
 
                   </Typography>
+                  <List sx={{ mt: -2, mb: 2 }}>
+              {explist.map((item, i) => (
+                <ListItem
+                  key={item}
+                >
+                  <FileDownloadDoneIcon sx={{ fontSize: 18, marginRight: 1, color: 'primary.dark' }} />
+                  {item}
+                </ListItem>
+              ))}
+            </List>
                 </Box>
               </Grid>
             {/* </Card> */}
@@ -131,24 +132,14 @@ const DrAkshay = () => {
                       fontWeight: 700,
                       marginBottom: "5px",
                       fontSize: "30px",
-                      color:"primary.dark",
+                      color:"primary.main",
                     }}
                   >
                     {" "}
-                    Dr. Shweta Mishra
+                    Dr. Sushma
+
                   </Typography>
-                  <span
-                    style={{
-                      fontSize: "18px",
-
-                      fontWeight: 500,
-                    }}
-                  >
-                    Dental Surgeon
-
-                    <br></br>
-                    Experience: 8+ Years
-                  </span>
+                  
 
                   {/* {messages['dashboard.analytics.eddieMassy']} */}
                   <Typography
@@ -162,18 +153,28 @@ const DrAkshay = () => {
 
                     }}
                   >
-                    Meet Dr. Shweta Mishra, a skilled Dental Surgeon with over eight years of experience in delivering exceptional dental care. Specializing in Root Canal, Crown & Bridges, Cosmetic Dentistry, and a range of other dental treatments, Dr. Shweta is dedicated to enhancing smiles and restoring dental function. Her compassionate approach and commitment to patient comfort ensure that each individual receives personalized care tailored to their unique needs. Trust Dr. Shweta for top-notch dental solutions and a brighter, healthier smile.
+                   Meet Dr. Sushma, the Founder of Sushma's OrthoSmile Dental Clinic. With a wealth of experience in orthodontics, Dr. Sushma is dedicated to crafting beautiful smiles and promoting overall oral health. She completed her Bachelor of Dental Surgery (BDS) from Government Dental College, Chennai, and pursued advanced training, earning a Master of Dental Surgery (MDS) in Orthodontics from Manipal College of Dental Sciences, Manipal.
 
 
 
                   </Typography>
+                  <List sx={{ mt: -2, mb: 2 }}>
+              {explist1.map((item, i) => (
+                <ListItem
+                  key={item}
+                >
+                  <FileDownloadDoneIcon sx={{ fontSize: 18, marginRight: 1, color: 'primary.dark' }} />
+                  {item}
+                </ListItem>
+              ))}
+            </List>
                 </Box>
               </Grid>
               <Grid item xs={12} sm={4} order={{xs:0,md:1}}>
               <Box sx={{p:3}}>
 
                 <Image
-                  src="/images/dr/shweta.jpeg"
+                  src="/images/dr/dr13.jpeg"
                   alt="Avatar"
                   width={300}
                   height={300}

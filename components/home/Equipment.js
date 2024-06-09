@@ -6,7 +6,7 @@ import IconButton, { iconButtonClasses } from "@mui/material/IconButton";
 import Image from "next/image";
 import { Typography } from "@mui/material";
 import Heading from "./Heading";
-import { headList7 } from "../Constant/titlefile";
+import { headList3, headList7 } from "../Constant/titlefile";
 
 export default function Equipment() {
     var Details = [
@@ -40,7 +40,7 @@ export default function Equipment() {
                 }}
             >
                 <Container>
-                    <Heading data={headList7}></Heading>
+                    <Heading data={headList3}></Heading>
 
                     <Grid container spacing={1}>
                         {Details.map((item, i) => (
