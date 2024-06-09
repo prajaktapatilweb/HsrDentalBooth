@@ -2,37 +2,16 @@ import React from "react";
 import Image from "next/image";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import { styled } from "@mui/material/styles";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
-import LinearProgress, {
-    linearProgressClasses,
-} from "@mui/material/LinearProgress";
 import { data } from "./feature.data";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useEffect } from "react";
-import Fadeupside from "../Animations/Fadeupside";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import StarIcon from "@mui/icons-material/Star";
-import FileDownloadDoneIcon from '@mui/icons-material/FileDownloadDone';
-import Countdown from "./Countdown";
-import typography from "../../config/theme/typography";
-import Drgallery from "./Drgallery";
 import Heading from "./Heading";
 import { headList1 } from "../Constant/titlefile";
 
 
-const explist = [
-    'Experienced team of professionals dedicated to improving and maintaining your oral health.',
-    'Comprehensive range of services, including preventive dentistry, root canal treatment, and dental implants.',
-    'Utilization of the latest advancements in dental technology for precise diagnoses and efficient treatments.',
-    'Warm and welcoming environment ensuring patient comfort and relaxation throughout their dental journey.',
-    'Specialization in children\'s dentistry for a positive dental experience for young patients.',
-    'Skilled dental surgeon providing advanced dental treatments to address diverse oral health needs.',
-
-];
 const Clinicinfo = () => {
     const text = "Dynamic Dental Care - Best dentist in Thane";
     const letters = Array.from(text);
@@ -122,7 +101,7 @@ const Clinicinfo = () => {
 If you are looking for the best dentist in HSR Layout, our dental clinic stands out for its commitment to excellence. We go above and beyond to ensure that dentistry is practiced with the most modern materials and techniques. Trust HSR Dental Booth, under the expert guidance of Dr. Jalpa Tank, as your preferred dentist in HSR Layout and experience unparalleled dental care at the best dental clinic HSR Layout has to offer.
 
                                 </p>
-                                <Grid container spacing={2} >
+                                <Grid container spacing={2} sx={{mt:1}}>
                                     {data.map(({ title, description, icon }, index) => (
                                         <Grid key={String(index)} item xs={12} md={6}>
                                             <Box
@@ -136,21 +115,10 @@ If you are looking for the best dentist in HSR Layout, our dental clinic stands 
                                                     alignItems: "center",
                                                 }}
                                             >
-                                                 <Grid container spacing={2} alignItems='center' justifyContent='center' textAlign='center'>
-                                                    <Grid  item xs={12} md={12}>
-                                                <Typography
-                                                        variant="h6"
-                                                        sx={{
-                                                            fontSize: "1rem",
-                                                            color: "primary.dark",
-                                                            textAlign:'left'
-                                                        }}
-                                                    >
-                                                        {title}
-                                                    </Typography>
-                                                    </Grid>
-                                                    <Grid  item xs={12} md={2}>
-                                                <Box
+                                                 <Grid container spacing={2} alignItems='center' justifyContent='center' >
+                                                    <Grid  item xs={2}>
+                                              
+                                                    <Box
                                                     sx={{
                                                         // mx: 1,
                                                         // background: "primary.light",
@@ -169,8 +137,20 @@ If you are looking for the best dentist in HSR Layout, our dental clinic stands 
                                                 >
                                                     {icon}
                                                 </Box>
+                                                    </Grid>
+                                                    <Grid  item xs={10}>
+                                                    <Typography
+                                                        variant="h6"
+                                                        sx={{
+                                                            fontSize: "1rem",
+                                                            color: "primary.dark",
+                                                            textAlign:'left'
+                                                        }}
+                                                    >
+                                                        {title}
+                                                    </Typography>
                                                 </Grid>
-                                                <Grid  item xs={12} md={10}>
+                                                <Grid  item xs={12} md={12}>
                                                 <Box
                                                     // sx={{ display: "flex", flex: 1, flexDirection: "column" }}
                                                 >

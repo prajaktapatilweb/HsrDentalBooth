@@ -125,7 +125,8 @@ const Contact = () => {
                                <Link  href={`tel:${contactno1}`} target="_blank">
                                     +917373736215
 
-                                </Link>{" "}
+                                </Link>
+                                <br/>
                                 <Link 
                                href={`mailto:${'hsrdentalbooth@gmail.com'}`} target="_blank">
                                    hsrdentalbooth@gmail.com

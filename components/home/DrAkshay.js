@@ -61,7 +61,7 @@ const DrAkshay = () => {
               <Grid item xs={12} sm={4}>
                 <Box sx={{p:3}}>
                 <Image
-                  src="/images/dr/dr11.jpeg"
+                  src="/images/dr/dr13.jpeg"
                   alt="Avatar"
                   width={300}
                   height={300}
@@ -174,7 +174,7 @@ const DrAkshay = () => {
               <Box sx={{p:3}}>
 
                 <Image
-                  src="/images/dr/dr13.jpeg"
+                  src="/images/dr/dr11.jpeg"
                   alt="Avatar"
                   width={300}
                   height={300}

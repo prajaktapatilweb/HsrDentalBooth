@@ -2,7 +2,7 @@ export const Details = [
     {
         icons: "/images/icons/dental-care2.png",
         title: 'Dental Implants',
-        info: 'Discover permanent dental implants for missing teeth at our HSR Layout dental clinic. Our skilled dentist in HSR Layout offers advanced implant treatments, providing stability and functionality to your smile with state-of-the-art technology.'
+        info: 'Discover permanent dental implants for missing teeth at our HSR Layout dental clinic. Our skilled dentist in HSR Layout offers advanced implant treatments, providing stability and functionality to your smile with state-of-the-art technology. Dental implants maintain the jawbone\'s integrity and shape.'
     },
     {
         icons: "/images/icons/whitening.png",

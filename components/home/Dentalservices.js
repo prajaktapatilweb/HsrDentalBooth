@@ -72,11 +72,11 @@ const Dentalservices = () => {
           </Grid>
 
           <Grid item xs={12} md={12}>
-          <Slider {...sliderConfig} className="custom-slider">
+          <Slider {...sliderConfig}>
           {Details.map((item) => (
-              <div className="slide">
+             
                 <CourseCardItem key={String(item.id)} item={item} />
-                </div>
+               
               ))}
            
         </Slider>
