@@ -41,7 +41,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
 
           <meta charSet="utf-8" />
-          <link rel="icon" href="/dentavenue1.ico" />
+          <link rel="icon" href="/hsrlogo4.png" />
           <meta name="google-site-verification" content="4GKM3x2UsEDZaIUgwspCYDUJwYNK0YBE80HfNGgJ77U" />
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.background.paper} />
