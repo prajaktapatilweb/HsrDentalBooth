@@ -10,6 +10,10 @@ import { useInView } from "framer-motion";
 import { useRef, useEffect } from "react";
 import Heading from "./Heading";
 import { headList1 } from "../Constant/titlefile";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import FileDownloadDoneIcon from "@mui/icons-material/FileDownloadDone";
+
 
 
 const Clinicinfo = () => {
@@ -74,6 +78,16 @@ const Clinicinfo = () => {
         }
     };
 
+    const explist = [
+'Personalized patient care',
+'State-of-the-art technology',
+'Comfortable patient experience',
+'Thorough consultations and education',
+'Emergency dental care availability',
+'Community Involvement',
+    
+          ];
+
     return (
         <>
 
@@ -90,7 +104,8 @@ const Clinicinfo = () => {
                                     width={100}
                                     layout="responsive"
                                     objectFit="cover"
-                                    alt="dr-akshays-dentavenue-dental-clinic-chembur-mumbai"
+                                    alt=" HSR Dental Booth, Dental Clinic Inside Photo"
+                                    style={{border:'2px solid black'}}
                                 />
                                 {/* <img src="/images/dr-akshays-dentavenue-dental-clinic-chembur-mumbai.webp" class="img-fluid" alt="" /> */}
                             </Grid>
@@ -99,9 +114,10 @@ const Clinicinfo = () => {
                                 Welcome to HSR Dental Booth, the best dental clinic in HSR Layout, Bengaluru. As the premier dental clinic in HSR, we pride ourselves on maintaining high-quality standards while investing in the latest technology, education, and training. Led by Dr. Jalpa Tank, an expert Endodontist, our team offers a wide range of services, including General and Cosmetic Dentistry, Oral Surgery, Periodontics, Endodontics, Orthodontics, and Implantology, ensuring top-notch patient care and predictable, exceptional results.
 <br/>
 If you are looking for the best dentist in HSR Layout, our dental clinic stands out for its commitment to excellence. We go above and beyond to ensure that dentistry is practiced with the most modern materials and techniques. Trust HSR Dental Booth, under the expert guidance of Dr. Jalpa Tank, as your preferred dentist in HSR Layout and experience unparalleled dental care at the best dental clinic HSR Layout has to offer.
+<br/>Discover the HSR Dental Booth Difference:
 
                                 </p>
-                                <Grid container spacing={2} sx={{mt:1}}>
+                                {/* <Grid container spacing={2} sx={{mt:1}}>
                                     {data.map(({ title, description, icon }, index) => (
                                         <Grid key={String(index)} item xs={12} md={6}>
                                             <Box
@@ -164,8 +180,8 @@ If you are looking for the best dentist in HSR Layout, our dental clinic stands 
                                             </Box>
                                         </Grid>
                                     ))}
-                                </Grid>
-                                {/* <List>
+                                </Grid> */}
+                                <List>
                                     {explist.map((item, i) => (
                                         <ListItem
                                             key={item}
@@ -174,7 +190,7 @@ If you are looking for the best dentist in HSR Layout, our dental clinic stands 
                                             {item}
                                         </ListItem>
                                     ))}
-                                </List> */}
+                                </List>
 
                                 
                             </Grid>
