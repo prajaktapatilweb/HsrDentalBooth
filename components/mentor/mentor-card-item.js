@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 const MentorCardItem = ({ item }) => {
   return (<Box>
 
-    <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials" style={{padding:4}}>
       <div class="testimonial-item">
         <p>
           {/* <p class='ps'> */}

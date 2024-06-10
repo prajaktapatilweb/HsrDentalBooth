@@ -7,8 +7,8 @@ const headDetails = {
     },
     about: {
 
-        subtitle:"Best Dental Clinic in HSR Layout",
-        title:  "Our Dental Journey",
+        subtitle: "Our Dental Journey",
+        title: "Best Dental Clinic in HSR Layout",
 
     },
     service: {
@@ -23,11 +23,7 @@ const headDetails = {
         title:"Our Dental Quiver",
 
     },
-    wyuus: {
-        subtitle: 'Why Choose Us',
-        title: 'And Let\'s Not Forget'
 
-    },
     photos: {
         subtitle: ' We empower smiles that empower our journey.', 
         title:'Hall of Fame',
@@ -42,8 +38,8 @@ const headDetails = {
         title: 'Get in Touch: Because Your Smile Matters!'
     },
     doctors: {
-        subtitle: 'The Real',
-        title: 'Professionals'
+        subtitle: 'A perfect blend of care & professionalism.',
+        title: ' Meet Our Dentists'
 
     }
 };
@@ -52,7 +48,7 @@ const headDetails = {
 export const headList1 = [headDetails.about];
 export const headList2 = [headDetails.service];
 export const headList3 = [headDetails.equip];
-export const headList4 = [headDetails.wyuus];
+export const headList4 = [headDetails.doctors];
 export const headList5 = [headDetails.photos];
 export const headList6 = [headDetails.testi];
 export const headList7 = [headDetails.counts];

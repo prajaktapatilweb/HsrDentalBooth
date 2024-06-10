@@ -81,8 +81,8 @@ const Clinicinfo = () => {
                 <section id="aboutus" class="about" style={{ background: 'white' }}>
                     <Container>
 <Heading data={headList1}></Heading>
-                        <Grid container spacing={3} >
-                            <Grid item xs={12} md={6}>
+                        <Grid container spacing={3} alignItems='center' justifyContent='center'>
+                            <Grid item xs={12} md={5}>
                                 {/* <Drgallery/> */}
                                 <Image
                                     src="/images/clinicphoto.jpeg"
@@ -94,7 +94,7 @@ const Clinicinfo = () => {
                                 />
                                 {/* <img src="/images/dr-akshays-dentavenue-dental-clinic-chembur-mumbai.webp" class="img-fluid" alt="" /> */}
                             </Grid>
-                            <Grid item xs={12} md={6} textAlign='justify' sx={{}}>
+                            <Grid item xs={12} md={7} textAlign='justify'>
                                 <p class="fst-italic" style={{marginTop:4,marginBottom:0}}>
                                 Welcome to HSR Dental Booth, the best dental clinic in HSR Layout, Bengaluru. As the premier dental clinic in HSR, we pride ourselves on maintaining high-quality standards while investing in the latest technology, education, and training. Led by Dr. Jalpa Tank, an expert Endodontist, our team offers a wide range of services, including General and Cosmetic Dentistry, Oral Surgery, Periodontics, Endodontics, Orthodontics, and Implantology, ensuring top-notch patient care and predictable, exceptional results.
 <br/>
@@ -120,8 +120,6 @@ If you are looking for the best dentist in HSR Layout, our dental clinic stands 
                                               
                                                     <Box
                                                     sx={{
-                                                        // mx: 1,
-                                                        // background: "primary.light",
                                                         backgroundColor: "primary.main",
                                                         borderRadius: "50%",
                                                         height: 36,
@@ -144,20 +142,18 @@ If you are looking for the best dentist in HSR Layout, our dental clinic stands 
                                                         sx={{
                                                             fontSize: "1rem",
                                                             color: "primary.dark",
-                                                            textAlign:'left'
+                                                            textAlign:'left',
+                                                            
                                                         }}
                                                     >
                                                         {title}
                                                     </Typography>
                                                 </Grid>
                                                 <Grid  item xs={12} md={12}>
-                                                <Box
-                                                    // sx={{ display: "flex", flex: 1, flexDirection: "column" }}
-                                                >
+                                                <Box>
                                                     
                                                     <Typography
-                                                        // sx={{ lineHeight: 1.3, color: "text.secondary" }}
-                                                        sx={{ lineHeight: 1.3, color: "#000000",textAlign:'left' }}
+                                                        sx={{ lineHeight: 1.3, color: "#000000",textAlign:'justify' }}
                                                         variant="subtitle1"
                                                     >
                                                         {description}

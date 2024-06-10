@@ -7,15 +7,12 @@ import Typography from "@mui/material/Typography";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import StarIcon from "@mui/icons-material/Star";
-import { StyledButton } from "../styled-button";
 import { motion } from "framer-motion";
 import { Card, Link } from "@mui/material";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import { CardActionArea } from "@mui/material";
 import FileDownloadDoneIcon from "@mui/icons-material/FileDownloadDone";
 import Heading from "./Heading";
-import { headList3 } from "../Constant/titlefile";
+import { headList3, headList4 } from "../Constant/titlefile";
+import { StyledButton } from "../styled-button";
 
 const DrAkshay = () => {
   const variants = {
@@ -48,7 +45,7 @@ const DrAkshay = () => {
   return (
     <Box id='Doctors' sx={{ py: { xs: 7, md: 5 }, backgroundColor: "background.paper" }}>
       <Container>
-       <Heading data={headList3}></Heading>
+       <Heading data={headList4}></Heading>
         <Grid
           container
           spacing={0}
@@ -61,8 +58,8 @@ const DrAkshay = () => {
               <Grid item xs={12} sm={4}>
                 <Box sx={{p:3}}>
                 <Image
-                  src="/images/dr/dr13.jpeg"
-                  alt="Avatar"
+                  src="/images/dr/dr14.jpeg"
+                  alt="Dr. Jalpa Tank, Founder of HSR Dental Booth"
                   width={300}
                   height={300}
                   // layout="responsive"
@@ -113,11 +110,22 @@ const DrAkshay = () => {
                 <ListItem
                   key={item}
                 >
-                  <FileDownloadDoneIcon sx={{ fontSize: 18, marginRight: 1, color: 'primary.dark' }} />
+                  <StarIcon sx={{ fontSize: 16, marginRight: 2, color: 'primary.dark' }} />
                   {item}
                 </ListItem>
               ))}
             </List>
+<Box sx={{textAlign:'left'}}>
+            <StyledButton color="primary"  size="large" variant="contained" >
+                <a
+                  href="https://www.practo.com/bangalore/doctor/dr-jalpa-tank-1-dentist"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
+                  {" "}
+                  Book An Appointment{" "}
+                </a>
+              </StyledButton>
+              </Box>
                 </Box>
               </Grid>
             {/* </Card> */}
@@ -163,7 +171,7 @@ const DrAkshay = () => {
                 <ListItem
                   key={item}
                 >
-                  <FileDownloadDoneIcon sx={{ fontSize: 18, marginRight: 1, color: 'primary.dark' }} />
+                  <StarIcon sx={{ fontSize: 16, marginRight: 2, color: 'primary.dark' }} />
                   {item}
                 </ListItem>
               ))}
@@ -175,7 +183,7 @@ const DrAkshay = () => {
 
                 <Image
                   src="/images/dr/dr11.jpeg"
-                  alt="Avatar"
+                  alt=" Experienced Orthodontist at HSR Dental Booth"
                   width={300}
                   height={300}
                   // layout="responsive"

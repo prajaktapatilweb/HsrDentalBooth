@@ -6,11 +6,12 @@ export default function Heading({ data }) {
         <div>
             <Box>
                 {data.map((item) => (
-                    <Box sx={{textAlign:'center'}}>
-                        <Typography variant='p' sx={{color:'primary.dark'}}>
+                    <Box sx={{textAlign:'center',mb:3}}>
+                       
+                        <Typography variant="h2" sx={{color:'primary.dark'}}>
                             {item.title}
                         </Typography>
-                        <Typography variant="h2" sx={{color:'primary.dark',pb:3}}>
+                        <Typography variant='p' sx={{color:'primary.dark'}}>
                             {item.subtitle}
                         </Typography>
                     </Box>

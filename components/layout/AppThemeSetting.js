@@ -36,6 +36,7 @@ const AppThemeSetting = () => {
       className='customizerOption'
     >
       
+      <ScrollUp></ScrollUp>
 
       <Box
         sx={{
@@ -72,7 +73,6 @@ const AppThemeSetting = () => {
 
       </Box>
    
-        <ScrollUp></ScrollUp>
 
       </Box>
     

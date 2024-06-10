@@ -33,7 +33,7 @@ const Footer = () => {
 
             
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
-              Discover exceptional dental care at Dynamic Dental Care and Implant Centre, conveniently located in Airoli, Navi Mumbai, and Thane West. Led by Dr. Anuj Mishra, our dedicated team is committed to providing personalized treatments for a long-lasting, healthy smile. Whether you're in Airoli, Navi Mumbai, or Thane West, we're here for you.
+              At HSR Dental Booth, we're dedicated to providing exceptional dental care in a welcoming environment. Led by Dr. Jalpa Tank, our team offers a wide range of services, ensuring personalized treatment for every patient. Trust us for your dental needs and experience the difference in your smile today!
               </Typography>
             
              

@@ -88,23 +88,23 @@ const Contact = () => {
           </div> */}
 
 
-          <Grid container spacing={2}>
-            <Grid item xs={12} md={6} height='100%' sx={{display:'flex'}}>
+          <Grid container spacing={2} alignItems='center' justifyContent='center'>
+            <Grid item xs={12} md={6}>
 
               <Grid container spacing={2}>
-                <Grid item xs={12} md={12}  sx={{display:'flex',height:{sx:'35%',md:'50%'}}}>
+                <Grid item xs={12} md={12}>
                   <div class="info-box" style={{ background: '#ffffff',boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset'  }}>
 
-                    <i class="bx"><LocationOnIcon /></i>
+                    <i class="bx"><LocationOnIcon sx={{ color: 'primary.main' }}/></i>
                     <h3 style={{fontSize:'18px'}}>Our Location</h3>
-                    <p> HSR Dental Booth, 255, Royal Heights, 17th Cross Road, Sector 6, HSR Layout, Bengaluru, Karnataka 560 102.
+                    <p> HSR Dental Booth, 255, Royal Heights, 17th Cross Road, Sector 6,<br/> HSR Layout, Bengaluru, Karnataka 560 102.
 </p>
                   </div>
                 </Grid>
                 
                 <Grid item xs={12} md={6}>
                   <div class="info-box mt-4" style={{ background: '#ffffff',boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset'  }}>
-                    <i class="bx"><EmailTwoToneIcon style={{ color: '#49caeb' }}></EmailTwoToneIcon></i>
+                    <i class="bx"><EmailTwoToneIcon sx={{ color: 'primary.main' }}></EmailTwoToneIcon></i>
                     <h3>Working Hours</h3>
                     <p>Monday to Sunday:<br/>
                      11 am–8 pm
@@ -115,7 +115,7 @@ const Contact = () => {
                   <div class="info-box mt-4" style={{ background: '#ffffff',boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset'  }}>
                     {/* <IconButton aria-label="phone" style={{ color: '#49caeb' }}> */}
                     <i class="bx">
-                      <CallTwoToneIcon style={{ color: '#49caeb' }} />
+                      <CallTwoToneIcon sx={{ color: 'primary.main' }} />
                     </i>
                     {/* </IconButton> */}
                     <h3>Contact Us</h3>

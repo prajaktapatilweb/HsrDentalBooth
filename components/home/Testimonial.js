@@ -11,36 +11,7 @@ import { MentorCardItem } from "../mentor";
 import { data } from "./mentors.data";
 import Heading from "./Heading";
 import { headList6 } from "../Constant/titlefile";
-const SliderArrow = (props) => {
-    const { onClick, type, className } = props;
-    return (
-        <IconButton
-            sx={{
-                backgroundColor: "background.paper",
-                color: "primary.main",
-                "&:hover": {
-                    backgroundColor: "primary.main",
-                    color: "primary.contrastText",
-                },
-                bottom: "-28px !important",
-                left: "unset !important",
-                right: type === "prev" ? "60px !important" : "0 !important",
-                zIndex: 10,
-                boxShadow: 1,
-            }}
-            disableRipple
-            color="inherit"
-            onClick={onClick}
-            className={className}
-        >
-            {type === "next" ? (
-                <IconArrowForward sx={{ fontSize: 22 }} />
-            ) : (
-                <IconArrowBack sx={{ fontSize: 22 }} />
-            )}
-        </IconButton>
-    );
-};
+
 const StyledDots = styled("ul")(({ theme }) => ({
     "&.slick-dots": {
         position: "absolute",
@@ -67,8 +38,7 @@ const Testimonial = () => {
         speed: 300,
         slidesToShow: matchMobileView ? 1 : 3,
         slidesToScroll: 1,
-        prevArrow: <SliderArrow type="prev" />,
-        nextArrow: <SliderArrow type="next" />,
+       
         dots: true,
         appendDots: (dots) => <StyledDots>{dots}</StyledDots>,
         customPaging: () => (
@@ -79,6 +49,7 @@ const Testimonial = () => {
                     backgroundColor: "divider",
                     display: "inline-block",
                     borderRadius: '50%',
+                    bottom:5
                 }}
             />
         ),
@@ -87,7 +58,7 @@ const Testimonial = () => {
         <Box
             id="testimonials"
             sx={{
-                py: { xs: 7, md: 7 },
+                py: { xs: 5, md: 7 },
                 backgroundColor: "#fafafa",
             }}
         >
