@@ -7,7 +7,7 @@ const headDetails = {
     },
     about: {
 
-        subtitle: "Our Dental Journey",
+        subtitle: "",
         title: "Best Dental Clinic in HSR Layout",
 
     },

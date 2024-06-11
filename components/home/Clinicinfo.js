@@ -105,7 +105,7 @@ const Clinicinfo = () => {
                                     layout="responsive"
                                     objectFit="cover"
                                     alt=" HSR Dental Booth, Dental Clinic Inside Photo"
-                                    style={{border:'2px solid black'}}
+                                    style={{border:'4px inset #104099'}}
                                 />
                                 {/* <img src="/images/dr-akshays-dentavenue-dental-clinic-chembur-mumbai.webp" class="img-fluid" alt="" /> */}
                             </Grid>
