@@ -13,9 +13,9 @@ const Testimonial = lazy(() => import('../components/home/Testimonial'))
 export default function Home() {
   return (
     <>
-    
+   <Countdown/> 
 <Clinicinfo/>
-<Countdown/>
+
       <Dentalservices></Dentalservices>
       <DrAkshay></DrAkshay>
       {/* <Centermode/> */}

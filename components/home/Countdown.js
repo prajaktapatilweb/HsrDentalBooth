@@ -34,15 +34,12 @@ export default function Countdown() {
     return (
         <div>
             <Box>
-                <Grid container spacing={2} sx={{ mb: 7, height: '100%' }}>
+                <Grid container spacing={2} sx={{ my: 5, height: '100%' }}>
                     {Details.map((item, i) => (
                         <Grid item xs={12} sm={12} md={3} key={i} alignItems='center' justifyContent='center' textAlign='center'>
                             <Card sx={{
                                 background: '#e1e8f0',
                                 boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset',
-                                backdropFilter: 'blur( 8px )',
-                                // -webkitBackdropFilter: blur( 2px );
-                                // borderRadius: 3,
                                 border: '1px solid #ffffff36',
                                 p: 3,
                                 

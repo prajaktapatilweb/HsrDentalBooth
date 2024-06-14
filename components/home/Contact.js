@@ -33,8 +33,8 @@ const validationSchema = yup.object({
     .required('Name is required'),
   email: yup
     .string()
-    .email('Please enter valid email ID')
-    .required('Email ID is required'),
+    .email('Please enter valid email ID'),
+    // .required('Email ID is required'),
   mobilenumber: yup
     .string()
     .required('Mobile Number is mandatory')
@@ -42,7 +42,7 @@ const validationSchema = yup.object({
     .length(10, 'Only 10 digit mobile number'),
   selection: yup
     .string()
-    .required('It is required'),
+    // .required('It is required'),
 });
 
 const Contact = () => {
