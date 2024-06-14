@@ -93,7 +93,7 @@ const Contact = () => {
 
               <Grid container spacing={2}>
                 <Grid item xs={12} md={12}>
-                  <div class="info-box" style={{ background: '#ffffff',boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset'  }}>
+                  <div class="info-box" style={{ background: '#ffffff',boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset'}}>
 
                     <i class="bx"><LocationOnIcon sx={{ color: 'primary.main' }}/></i>
                     <h3 style={{fontSize:'18px'}}>Our Location</h3>

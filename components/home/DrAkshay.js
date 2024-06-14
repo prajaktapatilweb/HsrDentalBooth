@@ -39,6 +39,14 @@ const DrAkshay = () => {
 'Specialized in Invisalign and Advanced Orthodontic Techniques',
 'Committed to Ongoing Education and Excellence',
 'Former Assistant Professor',
+  ];
+  const explist2 = [
+'14+ Years of experience',
+'Experienced Oral & Maxillofacial Surgeon',
+'Government Dental College Alumni',
+'Specialized in Minor Oral Surgeries, Implantology, and Maxillofacial Trauma',
+'Committed to Excellence and Continued Education',
+'Dedicated to Providing Comprehensive Care',
   ]
 
   return (
@@ -175,6 +183,18 @@ const DrAkshay = () => {
                 </ListItem>
               ))}
             </List>
+
+            <Box sx={{textAlign:'left'}}>
+            <StyledButton color="primary"  size="large" variant="contained" >
+                <a
+                  href="https://www.practo.com/bangalore/clinic/hsr-dental-booth-a-multispeciality-dental-clinic-hsr-layout"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
+                  {" "}
+                  Book An Appointment{" "}
+                </a>
+              </StyledButton>
+              </Box>
                 </Box>
               </Grid>
               <Grid item xs={12} sm={4} order={{xs:0,md:1}}>
@@ -194,6 +214,90 @@ const DrAkshay = () => {
                 />
                 </Box>
               </Grid>
+</Grid>
+
+<Grid
+          container
+          spacing={0}
+          alignItems="center"
+          justifyContent="center"
+          textAlign="center"
+        >
+            <Grid item xs={12} sm={4}>
+                <Box sx={{p:3}}>
+                <Image
+                  src="/images/dr/dr15.jpeg"
+                  alt="Dr. Kaushik Pai S H, Consultant Craniofacial & Maxillofacial Surgeon"
+                  width={300}
+                  height={300}
+                  // layout="responsive"
+                  style={{
+                    width: '100%', height: '100%',
+                     boxShadow:
+                      "rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px",
+                  }}
+                />
+                </Box>
+              </Grid>
+              <Grid item xs={12} sm={8}>
+                <Box sx={{ px: 1 }}>
+               
+                  < Typography 
+                  component="h1"
+                    sx={{
+                      fontWeight: 700,
+                      marginBottom: "5px",
+                      fontSize: "30px",
+                      color:"primary.main",
+                    }}
+                  >
+                    
+                    Dr. Kaushik Pai S H
+
+                  </Typography>
+                 
+
+                  {/* {messages['dashboard.analytics.eddieMassy']} */}
+                  <Typography
+                    sx={{
+                      color: "text.primary",
+                      lineHeight: 1.5,
+                      marginBottom: 2.5,
+                      fontSize: 17,
+                      textAlign: "justify",
+                      mt: 2
+
+                    }}
+                  >
+                 Meet Dr. Kaushik Pai S H, Consultant Craniofacial & Maxillofacial Surgeon, and Implantologist at HSR Dental Booth. With over 14 years of experience, Dr. Kaushik specializes in minor oral surgeries, implantology, maxillofacial trauma, and corrective procedures. He also completed his Post Doctoral Fellowship in Craniofacial & Facial Cosmetic Surgery at Mazumdar Shaw Medical Centre, Bangalore. Dr. Kaushik is dedicated to delivering exceptional surgical care with precision and expertise.
+
+
+
+                  </Typography>
+                  <List sx={{ mt: -2, mb: 2 }}>
+              {explist2.map((item, i) => (
+                <ListItem
+                  key={item}
+                >
+                  <StarIcon sx={{ fontSize: 16, marginRight: 2, color: 'primary.dark' }} />
+                  {item}
+                </ListItem>
+              ))}
+            </List>
+<Box sx={{textAlign:'left'}}>
+            <StyledButton color="primary"  size="large" variant="contained" >
+                <a
+                  href="https://www.practo.com/bangalore/clinic/hsr-dental-booth-a-multispeciality-dental-clinic-hsr-layout"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
+                  {" "}
+                  Book An Appointment{" "}
+                </a>
+              </StyledButton>
+              </Box>
+                </Box>
+              </Grid>
+              
             </Grid>
             {/* </Card> */}
 

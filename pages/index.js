@@ -7,12 +7,15 @@ import Contact from '../components/home/Contact';
 import Clinicinfo from "../components/home/Clinicinfo";
 import Centermode from "../components/home/Centermode";
 import DrAkshay from "../components/home/DrAkshay";
+import Countdown from "../components/home/Countdown";
 const Testimonial = lazy(() => import('../components/home/Testimonial'))
 
 export default function Home() {
   return (
     <>
+    
 <Clinicinfo/>
+<Countdown/>
       <Dentalservices></Dentalservices>
       <DrAkshay></DrAkshay>
       {/* <Centermode/> */}
