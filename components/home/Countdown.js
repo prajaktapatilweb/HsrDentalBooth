@@ -37,29 +37,36 @@ export default function Countdown() {
                 <Grid container spacing={2} sx={{ my: 5, height: '100%' }}>
                     {Details.map((item, i) => (
                         <Grid item xs={12} sm={12} md={3} key={i} alignItems='center' justifyContent='center' textAlign='center'>
-                            <Card sx={{
-                                background: '#e1e8f0',
-                                boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset',
-                                border: '1px solid #ffffff36',
-                                p: 3,
-                                
-                                
-                                mx: { xs: 7, sm: 7, md: 1 }
-                                // background: #00000038;
-
-                            }}>
+                            <Card
+                  sx={{
+                    textAlign: 'center',
+                    px: 1,
+                    py: 4,
+                    zIndex: 1,
+                    position: 'relative',
+                    // mb: { xs: 1, md: 0 },
+                    // padding: 3,
+                    borderRadius: 5,
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    background: 'white',
+                    boxShadow: 'rgba(40, 40, 73, 0.25) 0px 40px 70px -10px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset',
+                    border: '1px solid lightgrey',
+                  }}
+                >
                                 <Typography
                                     sx={{
                                         color: "primary.dark",
                                         // mb: { xs: 1, md: 2 },
-                                        fontSize: { xs: 34, md: 40 },
+                                        // fontSize: { xs: 34, md: 40 },
                                         fontWeight: "bold",
                                         fontFamily: "Open Sans, sans-serif"
                                     }}
                                 >
-                                    <CountUp end={item.numbers} duration={5} start={200} />+
+                                    <CountUp end={item.numbers} duration={5} start={200}   className='paras'/>
+                                    <span className='paras'>+</span>
                                 </Typography>
-                                <Typography color="primary.main" variant="h5">
+                                <Typography  className="paras">
                                     {item.title}
                                 </Typography>
                             </Card>
