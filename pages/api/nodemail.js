@@ -41,7 +41,7 @@ export default async function handler(req, res) {
                 <p> <strong> Date & Time :</strong>${date} </p>
                 <p> <strong> IP Address: </strong>${clientIp} </p>`
                 console.log('first', emailContent, process.env.EMAIL_URL)
-                await axios.post("https://node-email-setup.vercel.app/sendemail", { email: 'amolbhushan@gmail.com', sub: emailSubject, msg: emailContent }
+                await axios.post("https://node-email-setup.vercel.app/sendemail", { email: 'hsrdentalbooth@gmail.com', sub: emailSubject, msg: emailContent }
                     // client.sendMail(
                     //     {
                     //         from: `Web Developer <${process.env.EMAILID}>`,

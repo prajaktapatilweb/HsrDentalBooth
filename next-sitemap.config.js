@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: 'https://www.dentavenue.in',
+    siteUrl: 'https://www.hsrdentalbooth.com',
     generateRobotsTxt: true, // (optional)
-    generateIndexSitemap: false
+    generateIndexSitemap: true
     // ...other options
 }
