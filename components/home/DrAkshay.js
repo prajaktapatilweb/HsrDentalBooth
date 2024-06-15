@@ -26,10 +26,10 @@ const DrAkshay = () => {
   const explist = [
 '12+ Years of experience',
 'Experienced Endodontist',
-'CSMSS Dental College Alumni',
+' Former Assistant Professor',
 'Specialized in Endodontics and Cosmetic Dentistry',
 'Committed to Excellence',
-'Member of Dental Associations',
+'Indian Endodontics Society',
 
   ];
   const explist1 = [
