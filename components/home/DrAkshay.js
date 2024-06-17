@@ -168,9 +168,7 @@ const DrAkshay = () => {
 
                     }}
                   >
-                   Meet Dr. Sushma, the Founder of Sushma's OrthoSmile Dental Clinic. With a wealth of experience in orthodontics, Dr. Sushma is dedicated to crafting beautiful smiles and promoting overall oral health. She completed her Bachelor of Dental Surgery (BDS) from Government Dental College, Chennai, and pursued advanced training, earning a Master of Dental Surgery (MDS) in Orthodontics from Manipal College of Dental Sciences, Manipal.
-
-
+                  Meet Dr. Sushma, a dedicated orthodontist with a wealth of experience in crafting beautiful smiles and promoting overall oral health. She completed her Bachelor of Dental Surgery (BDS) from Government Dental College, Chennai, and pursued advanced training, earning a Master of Dental Surgery (MDS) in Orthodontics from Manipal College of Dental Sciences, Manipal.
 
                   </Typography>
                   <List sx={{ mt: -2, mb: 2 }}>

@@ -48,19 +48,11 @@ export const data = [
         description: 'Excellent treatment. Doctor explains everything in detail so that you can understand your teeth situation. Thanks a lot doctor for your service.😃',
 
     },
-    {
 
-        id: 5,
-        photo: '/images/mentors/testi5.jpeg',
-        name: ' Zohra Sharief',
-        category: ' ',
-        description: <span>I visited the clinic with pain. And doctor explained me so well about the treatment. I had painless procedure. Would surely recommend this clinic. 👍</span>,
-
-    },
    
     {
 
-        id: 7,
+        id: 5,
         photo: '/images/mentors/testi7.jpeg',
         name: 'Ashish Shewale ',
         category: ' ',
@@ -69,7 +61,7 @@ export const data = [
     },
     {
 
-        id: 8,
+        id: 6,
         photo: '/images/mentors/testi8.jpeg',
         name: 'Ayesha Sharief',
         category: ' ',
