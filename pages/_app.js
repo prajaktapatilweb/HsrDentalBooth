@@ -31,9 +31,10 @@ export default function MyApp(props) {
                                 </title>
                                 <meta name="title" content="Dental Clinic in HSR | Dentist in HSR Layout - HSR Dental Booth"></meta>
                                 <meta name='description' content="Looking for the best dentist in HSR Layout? Visit our multispeciality dental clinic in HSR and meet Dr. Jalpa Tank, a skilled Endodontist, for exceptional care at HSR Dental Booth."></meta>
-                                <meta name="twitter:title" content="Dental Clinic in HSR | Dentist in HSR Layout - HSR Dental Booth" />
-                                <meta name="twitter:description" content="Looking for the best dentist in HSR Layout? Visit our multispeciality dental clinic in HSR and meet Dr. Jalpa Tank, a skilled Endodontist, for exceptional care at HSR Dental Booth." />
-                               
+                                <meta property="og:title" content="HSR Dental Booth" />
+<meta property="og:description" content="Experience Excellence in Dental Care with Our Expert Team and Modern Dental Solutions" />
+<meta property="og:image" content="https://www.hsrdentalbooth.com/_next/image?url=%2Fimages%2Fdr%2Fdr14.jpeg&w=384&q=75" />
+<meta property="og:url" content="https://www.hsrdentalbooth.com/" ></meta>
                                 {/* Dental Clinic  */}
                                 <script
                                     type="application/ld+json"
@@ -43,7 +44,7 @@ export default function MyApp(props) {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "HSR Dental Booth",
-  "image": "https://static.wixstatic.com/media/5bfb6f_51ecff67d9fa4cd6bb92f9aed264fdb0.jpg/v1/fill/w_1899,h_599,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5bfb6f_51ecff67d9fa4cd6bb92f9aed264fdb0.jpg",
+  "image": " https://www.hsrdentalbooth.com/_next/image?url=%2Fimages%2Fclinicphoto.jpeg&w=1920&q=75",
   "@id": "",
   "url": "https://www.hsrdentalbooth.com/",
   "telephone": "7373736215",
@@ -94,7 +95,7 @@ export default function MyApp(props) {
   "@context": "https://schema.org",
   "@type": "Dentist",
   "name": "Dr. Jalpa Tank",
-  "image": "https://static.wixstatic.com/media/a4ef5c_6db0577d45b64e6dbeee82151c2cdf4c~mv2.jpg/v1/fill/w_244,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_20200607_123808-01_edited_edited.jpg",
+  "image": " https://www.hsrdentalbooth.com/_next/image?url=%2Fimages%2Fdr%2Fdr14.jpeg&w=384&q=75",
   "@id": "",
   "url": "https://www.hsrdentalbooth.com/",
   "telephone": "7373736215",
