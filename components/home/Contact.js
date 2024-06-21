@@ -15,6 +15,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import IconButton from "@mui/material/IconButton";
 import Heading from './Heading';
 import { headList9 } from '../Constant/titlefile';
+import GoogleRecaptcha from './GoogleRecaptcha';
 
 
 const All = [
@@ -41,8 +42,11 @@ const validationSchema = yup.object({
     .matches(/^[0-9]+$/, 'Only digits are allowed for this field ')
     .length(10, 'Only 10 digit mobile number'),
   selection: yup
-    .string()
+    .string(),
     // .required('It is required'),
+    recaptcha: yup
+    .string()
+    .required('It is required'),
 });
 
 const Contact = () => {
@@ -145,7 +149,8 @@ const Contact = () => {
                     email: '',
                     mobilenumber: '',
                     msg: '',
-                    selection: ''
+                    selection: '',
+                    recaptcha:''
                   }}
                   validationSchema={validationSchema}
                   onSubmit={onSubmit}
@@ -215,7 +220,7 @@ const Contact = () => {
                           </FormControl>
                         </Grid>
                         <Grid item xs={12} >
-                          <Box sx={{ mb: { xs: 5, lg: 8 } }}>
+                          <Box>
                             <AppTextField
                               placeholder='Message'
                               name='msg'
@@ -232,6 +237,10 @@ const Contact = () => {
                             />
                           </Box>
                         </Grid>
+                        <Grid item xs={12} sx={{ mb: { xs: 5, lg: 8 } }}>
+                          <GoogleRecaptcha />
+                        </Grid>
+                      
                       </Grid>
                       {/* <pre>{JSON.stringify(errors, null, 4)}</pre> */}
                       {/* <pre>{JSON.stringify(values, null, 4)}</pre> */}
