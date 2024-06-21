@@ -46,7 +46,7 @@ const validationSchema = yup.object({
     // .required('It is required'),
     recaptcha: yup
     .string()
-    .required('It is required'),
+    // .required('It is required'),
 });
 
 const Contact = () => {
