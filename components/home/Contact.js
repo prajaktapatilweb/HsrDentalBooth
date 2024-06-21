@@ -237,7 +237,7 @@ const Contact = () => {
                             />
                           </Box>
                         </Grid>
-                        <Grid item xs={12} sx={{ mb: { xs: 5, lg: 8 } }}>
+                        <Grid item xs={12} sx={{ mb: { xs: 3, lg: 3 } }}>
                           <GoogleRecaptcha />
                         </Grid>
                       
