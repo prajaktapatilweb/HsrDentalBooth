@@ -1,18 +1,25 @@
-import { ErrorMessage } from 'formik';
-import React, {useRef} from 'react';
-import ReCAPTCHA from 'react-google-recaptcha';
 
-export default function GoogleRecaptcha() {
-  const recaptchaRef = useRef();
+import React from 'react';
+import ReCAPTCHA from 'react-google-recaptcha';
+import { useField, useFormikContext } from 'formik';
+
+const GoogleRecaptcha = () => {
+  const { setFieldValue } = useFormikContext();
+  const [field] = useField('recaptcha');
+
+  const handleRecaptchaChange = (value) => {
+    setFieldValue('recaptcha', value);
+  };
+
   return (
-    <div>
-        <ReCAPTCHA
-          sitekey='6LeniPkpAAAAACQxReSm_DpRnTGqxwtrqUilSRlq'
-        //   sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-          ref={recaptchaRef}
-          onChange={(value) => setFieldValue('recaptcha', value)}
-        />
-        <ErrorMessage name='recaptcha' component='div'  style={{color:'red'}}/>
-    </div>
+    <ReCAPTCHA
+      sitekey="6LeniPkpAAAAACQxReSm_DpRnTGqxwtrqUilSRlq"
+      onChange={handleRecaptchaChange}
+    />
   );
-}
+};
+
+export default GoogleRecaptcha;
+
+
+
