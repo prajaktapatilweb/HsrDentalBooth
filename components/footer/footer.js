@@ -33,7 +33,8 @@ const Footer = () => {
 
             
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
-              At HSR Dental Booth, we're dedicated to providing exceptional dental care in a welcoming environment. Led by Dr. Jalpa Tank, our team offers a wide range of services, ensuring personalized treatment for every patient. Trust us for your dental needs and experience the difference in your smile today!
+              At HSR Dental Booth, we're dedicated to providing exceptional dental care in a welcoming environment. Led by Dr. Jalpa Tank, our team offers a wide range of services, ensuring personalized treatment for every patient. Trust us for your dental needs and experience the difference in your smile today! Visit our dental clinic near me in HSR Layout for expert care you can rely on.
+
               </Typography>
             
              

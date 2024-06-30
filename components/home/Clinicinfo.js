@@ -113,7 +113,7 @@ const Clinicinfo = () => {
                                 <p class="fst-italic" style={{marginTop:4,marginBottom:0}}>
                                 Welcome to HSR Dental Booth, the best dental clinic in HSR Layout, Bengaluru. As the premier dental clinic in HSR, we pride ourselves on maintaining high-quality standards while investing in the latest technology, education, and training. Led by Dr. Jalpa Tank, an expert Endodontist, our team offers a wide range of services, including General and Cosmetic Dentistry, Oral Surgery, Periodontics, Endodontics, Orthodontics, and Implantology, ensuring top-notch patient care and predictable, exceptional results.
 <br/>
-If you are looking for the best dentist in HSR Layout, our dental clinic stands out for its commitment to excellence. We go above and beyond to ensure that dentistry is practiced with the most modern materials and techniques. Trust HSR Dental Booth, under the expert guidance of Dr. Jalpa Tank, as your preferred dentist in HSR Layout and experience unparalleled dental care at the best dental clinic HSR Layout has to offer.
+If you are looking for the best dentist in HSR Layout, our dental clinic stands out for its commitment to excellence. We go above and beyond to ensure that dentistry is practiced with the most modern materials and techniques. Trust HSR Dental Booth, under the expert guidance of Dr. Jalpa Tank, as your preferred dentist in HSR Layout and experience unparalleled dental care at the best dental clinic HSR Layout has to offer.Whether you're in HSR Layout or surrounding neighborhoods, we're conveniently located to serve as your trusted dentist near me.
 <br/>Discover the HSR Dental Booth Difference:
 
                                 </p>

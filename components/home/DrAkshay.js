@@ -108,7 +108,7 @@ const DrAkshay = () => {
 
                     }}
                   >
-                  Meet Dr. Jalpa, the Founder of HSR Dental Booth in Bangalore. With over 12 years of experience in dentistry, Dr. Jalpa completed her MDS in Conservative Dentistry and Endodontics from CSMSS Dental College, Aurangabad. She specializes in single visit root canals, retreatment of failed root canal treatments, smile designing, and teeth whitening. If you're searching for a skilled dentist in HSR Layout, Dr. Jalpa is your trusted professional. She is dedicated to providing comprehensive dental solutions tailored to your needs.
+                  Meet Dr. Jalpa, the Founder of HSR Dental Booth in Bangalore. With over 12 years of experience in dentistry, Dr. Jalpa completed her MDS in Conservative Dentistry and Endodontics from CSMSS Dental College, Aurangabad. She specializes in single visit root canals, retreatment of failed root canal treatments, smile designing, and teeth whitening. If you're searching for a skilled dentist near me in HSR Layout, Dr. Jalpa is your trusted professional. She is dedicated to providing comprehensive dental solutions tailored to your needs.
 
 
                   </Typography>
